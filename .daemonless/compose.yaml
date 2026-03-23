@@ -1,0 +1,33 @@
+# CIT test compose file
+name: booklore-test
+
+services:
+  booklore:
+    image: ghcr.io/daemonless/booklore:build
+    network_mode: host
+    environment:
+      SPRING_DATASOURCE_URL: "jdbc:mariadb://127.0.0.1:3306/booklore"
+      SPRING_DATASOURCE_USERNAME: "booklore"
+      SPRING_DATASOURCE_PASSWORD: "testpass"
+      JAVA_OPTS: "-Xmx512m"
+    volumes:
+      - booklore-data:/app/data
+      - booklore-books:/books
+    depends_on:
+      - mariadb
+
+  mariadb:
+    image: ghcr.io/daemonless/mariadb:11.4
+    network_mode: host
+    environment:
+      MYSQL_ROOT_PASSWORD: "rootpass"
+      MYSQL_DATABASE: "booklore"
+      MYSQL_USER: "booklore"
+      MYSQL_PASSWORD: "testpass"
+    volumes:
+      - mariadb-data:/config
+
+volumes:
+  booklore-data:
+  booklore-books:
+  mariadb-data:

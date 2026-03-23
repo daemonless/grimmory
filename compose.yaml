@@ -1,0 +1,67 @@
+name: grimmory
+
+x-daemonless:
+  title: "Grimmory"
+  icon: ":material-bookshelf:"
+  category: "Media Management"
+  description: "Self-hosted digital library — successor to BookLore, with smart shelves, metadata, Kobo/KOReader sync, OPDS support, and a built-in reader."
+  upstream_url: "https://github.com/grimmory-tools/grimmory"
+  web_url: "https://grimmory.org/"
+  user: "bsd"
+  mlock: false
+  upstream_binary: true
+
+  docs:
+    env:
+      SPRING_DATASOURCE_URL: "MariaDB JDBC URL (e.g., jdbc:mariadb://127.0.0.1:3306/grimmory)"
+      SPRING_DATASOURCE_USERNAME: "Database username"
+      SPRING_DATASOURCE_PASSWORD: "Database password"
+      JAVA_OPTS: "Additional JVM options"
+    volumes:
+      /app/data: "Configuration and application data"
+      /books: "Book library directory"
+      /bookdrop: "Drop folder for automatic imports"
+    ports:
+      6060: "Web interface"
+
+services:
+  grimmory:
+    image: ghcr.io/daemonless/grimmory:latest
+    container_name: grimmory
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - SPRING_DATASOURCE_URL=jdbc:mariadb://127.0.0.1:3306/grimmory
+      - SPRING_DATASOURCE_USERNAME=grimmory
+      - SPRING_DATASOURCE_PASSWORD=changeme
+    volumes:
+      - grimmory-data:/app/data
+      - grimmory-books:/books
+      - grimmory-bookdrop:/bookdrop
+    depends_on:
+      - mariadb
+    restart: unless-stopped
+
+  mariadb:
+    image: ghcr.io/daemonless/mariadb:latest
+    container_name: grimmory-mariadb
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - MYSQL_ROOT_PASSWORD=changeme
+      - MYSQL_DATABASE=grimmory
+      - MYSQL_USER=grimmory
+      - MYSQL_PASSWORD=changeme
+    volumes:
+      - grimmory-mariadb:/config
+    restart: unless-stopped
+
+volumes:
+  grimmory-data:
+  grimmory-books:
+  grimmory-bookdrop:
+  grimmory-mariadb:

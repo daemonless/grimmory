@@ -1,0 +1,16 @@
+name: Build Grimmory Container
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['*.md', 'LICENSE', '.gitignore']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: daemonless/dbuild/.github/workflows/daemonless-build.yaml@main
+    with:
+      image_name: grimmory
+    secrets: inherit

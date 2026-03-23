@@ -1,0 +1,9 @@
+#!/bin/sh
+# Grimmory Spring Boot service
+
+cd /app
+
+exec s6-setuidgid bsd \
+    /usr/local/bin/java \
+    ${JAVA_OPTS} \
+    -jar /app/app.jar

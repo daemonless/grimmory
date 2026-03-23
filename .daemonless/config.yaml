@@ -1,0 +1,9 @@
+icon: ':material-bookshelf:'
+
+cit:
+  compose: true
+  mode: screenshot
+  port: 6060
+  wait: 120
+  health: /api/v1/healthcheck
+  screenshot_wait: 30

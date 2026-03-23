@@ -1,0 +1,9 @@
+#!/bin/sh
+# Health check for Grimmory
+if ! fetch -qo /dev/null --timeout 5 "http://127.0.0.1:6060/api/v1/healthcheck" 2>/dev/null; then
+    echo "Grimmory not responding"
+    exit 1
+fi
+
+echo "healthy"
+exit 0

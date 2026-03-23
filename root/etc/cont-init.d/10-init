@@ -1,0 +1,16 @@
+#!/bin/sh
+# Grimmory initialization
+
+echo "==> Initializing Grimmory..."
+
+# Create directories
+mkdir -p /books /bookdrop /app/data /app/logs
+
+# Symlink native kepubify for FreeBSD (grimmory only ships Linux/Mac binaries)
+mkdir -p /app/data/tools/kepubify
+ln -sf /usr/local/bin/kepubify /app/data/tools/kepubify/kepubify-linux-64bit
+
+# Set permissions
+chown -R bsd:bsd /books /bookdrop /app
+
+echo "==> Grimmory initialized"
