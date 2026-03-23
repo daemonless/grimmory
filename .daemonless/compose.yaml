@@ -1,18 +1,18 @@
 # CIT test compose file
-name: booklore-test
+name: grimmory-test
 
 services:
-  booklore:
-    image: ghcr.io/daemonless/booklore:build
+  grimmory:
+    image: ghcr.io/daemonless/grimmory:build
     network_mode: host
     environment:
-      SPRING_DATASOURCE_URL: "jdbc:mariadb://127.0.0.1:3306/booklore"
-      SPRING_DATASOURCE_USERNAME: "booklore"
+      SPRING_DATASOURCE_URL: "jdbc:mariadb://127.0.0.1:3306/grimmory"
+      SPRING_DATASOURCE_USERNAME: "grimmory"
       SPRING_DATASOURCE_PASSWORD: "testpass"
       JAVA_OPTS: "-Xmx512m"
     volumes:
-      - booklore-data:/app/data
-      - booklore-books:/books
+      - grimmory-data:/app/data
+      - grimmory-books:/books
     depends_on:
       - mariadb
 
@@ -21,13 +21,13 @@ services:
     network_mode: host
     environment:
       MYSQL_ROOT_PASSWORD: "rootpass"
-      MYSQL_DATABASE: "booklore"
-      MYSQL_USER: "booklore"
+      MYSQL_DATABASE: "grimmory"
+      MYSQL_USER: "grimmory"
       MYSQL_PASSWORD: "testpass"
     volumes:
       - mariadb-data:/config
 
 volumes:
-  booklore-data:
-  booklore-books:
+  grimmory-data:
+  grimmory-books:
   mariadb-data:
