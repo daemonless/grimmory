@@ -1,0 +1,1035 @@
+{
+  "image": "grimmory",
+  "generated": "2026-03-23T23:13:18Z",
+  "tags": {
+    "latest": {
+      "arch": "amd64",
+      "app_version": "2.3.0",
+      "source": "upstream",
+      "generated": "2026-03-23T23:13:01Z",
+      "packages": {
+        "freebsd": [
+          {
+            "name": "FreeBSD-audit-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-blocklist",
+            "version": "15.0p3"
+          },
+          {
+            "name": "FreeBSD-bzip2-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-certctl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-clibs",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-ctf-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-fetch",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-kerberos-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libarchive",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libbsdstat",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libcasper",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libexecinfo",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libldns",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libmagic",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libucl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-mtree",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-ncurses-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-openssl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-openssl-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-pkg-bootstrap",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-rc",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-runtime",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-tcpd",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-ufs-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-utilities",
+            "version": "15.0p1"
+          },
+          {
+            "name": "FreeBSD-xz-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-zfs-lib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-zlib",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-zoneinfo",
+            "version": "15.0"
+          },
+          {
+            "name": "alsa-lib",
+            "version": "1.2.14"
+          },
+          {
+            "name": "brotli",
+            "version": "1.2.0,1"
+          },
+          {
+            "name": "ca_root_nss",
+            "version": "3.117_2"
+          },
+          {
+            "name": "execline",
+            "version": "2.9.7.0"
+          },
+          {
+            "name": "expat",
+            "version": "2.7.4"
+          },
+          {
+            "name": "fontconfig",
+            "version": "2.17.1,1"
+          },
+          {
+            "name": "freetype2",
+            "version": "2.14.1"
+          },
+          {
+            "name": "gettext-runtime",
+            "version": "0.26"
+          },
+          {
+            "name": "giflib",
+            "version": "5.2.2"
+          },
+          {
+            "name": "glib",
+            "version": "2.84.4,2"
+          },
+          {
+            "name": "graphite2",
+            "version": "1.3.14"
+          },
+          {
+            "name": "harfbuzz",
+            "version": "12.3.0"
+          },
+          {
+            "name": "indexinfo",
+            "version": "0.3.1_1"
+          },
+          {
+            "name": "javavmwrapper",
+            "version": "2.7.10"
+          },
+          {
+            "name": "jbigkit",
+            "version": "2.1_3"
+          },
+          {
+            "name": "jpeg-turbo",
+            "version": "3.1.3"
+          },
+          {
+            "name": "jq",
+            "version": "1.8.1"
+          },
+          {
+            "name": "kepubify",
+            "version": "4.0.4_36"
+          },
+          {
+            "name": "lcms2",
+            "version": "2.17"
+          },
+          {
+            "name": "lerc",
+            "version": "4.0.0"
+          },
+          {
+            "name": "libdeflate",
+            "version": "1.25"
+          },
+          {
+            "name": "libffi",
+            "version": "3.5.1"
+          },
+          {
+            "name": "libiconv",
+            "version": "1.18_1"
+          },
+          {
+            "name": "mpdecimal",
+            "version": "4.0.1"
+          },
+          {
+            "name": "oniguruma",
+            "version": "6.9.10"
+          },
+          {
+            "name": "openjdk25-jre-headless",
+            "version": "25.0.1+8.f.1"
+          },
+          {
+            "name": "pcre2",
+            "version": "10.47_1"
+          },
+          {
+            "name": "pkg",
+            "version": "2.5.1"
+          },
+          {
+            "name": "png",
+            "version": "1.6.53"
+          },
+          {
+            "name": "py311-packaging",
+            "version": "25.0"
+          },
+          {
+            "name": "python311",
+            "version": "3.11.15"
+          },
+          {
+            "name": "readline",
+            "version": "8.3.3"
+          },
+          {
+            "name": "s6",
+            "version": "2.13.2.0"
+          },
+          {
+            "name": "s6-rc",
+            "version": "0.5.6.0"
+          },
+          {
+            "name": "skalibs",
+            "version": "2.14.4.0"
+          },
+          {
+            "name": "tiff",
+            "version": "4.7.1"
+          },
+          {
+            "name": "zstd",
+            "version": "1.5.7_1"
+          }
+        ],
+        "dotnet": [],
+        "go": [
+          {
+            "name": "github.com/pgaskin/kepubify/v4",
+            "version": ""
+          },
+          {
+            "name": "stdlib",
+            "version": "v1.24.13"
+          },
+          {
+            "name": "github.com/bamiaux/rez",
+            "version": "v0.0.0-20170731184118-29f4463c688b"
+          },
+          {
+            "name": "github.com/beevik/etree",
+            "version": "v1.1.0"
+          },
+          {
+            "name": "github.com/pgaskin/koboutils/v2",
+            "version": "v2.1.2-0.20220306004009-a07e72ebae42"
+          },
+          {
+            "name": "github.com/spf13/pflag",
+            "version": "v1.0.5"
+          },
+          {
+            "name": "github.com/kr/smartypants",
+            "version": "v0.1.0"
+          },
+          {
+            "name": "github.com/pgaskin/kepubify/_/html",
+            "version": "v0.0.0-20211223234002-6ee2cc632cdc"
+          },
+          {
+            "name": "golang.org/x/sync",
+            "version": "v0.0.0-20210220032951-036812b2e83c"
+          },
+          {
+            "name": "golang.org/x/text",
+            "version": "v0.3.6"
+          },
+          {
+            "name": "github.com/mattn/go-sqlite3",
+            "version": "v1.14.12"
+          }
+        ],
+        "java": [
+          {
+            "name": "ch.qos.logback:logback-classic",
+            "version": "1.5.32"
+          },
+          {
+            "name": "ch.qos.logback:logback-core",
+            "version": "1.5.32"
+          },
+          {
+            "name": "com.fasterxml.jackson.core:jackson-annotations",
+            "version": "2.20"
+          },
+          {
+            "name": "com.fasterxml.jackson.core:jackson-core",
+            "version": "2.20.2"
+          },
+          {
+            "name": "com.fasterxml.jackson.core:jackson-databind",
+            "version": "2.20.2"
+          },
+          {
+            "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
+            "version": "2.20.2"
+          },
+          {
+            "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+            "version": "2.20.2"
+          },
+          {
+            "name": "com.fasterxml:classmate",
+            "version": "1.7.3"
+          },
+          {
+            "name": "com.github.ben-manes.caffeine:caffeine",
+            "version": "3.2.3"
+          },
+          {
+            "name": "com.github.jai-imageio:jai-imageio-core",
+            "version": "1.4.0"
+          },
+          {
+            "name": "com.github.jai-imageio:jai-imageio-jpeg2000",
+            "version": "1.4.0"
+          },
+          {
+            "name": "com.github.junrar:junrar",
+            "version": "7.5.8"
+          },
+          {
+            "name": "com.github.stephenc.jcip:jcip-annotations",
+            "version": "1.0-1"
+          },
+          {
+            "name": "com.google.code.gson:gson",
+            "version": "2.12.1"
+          },
+          {
+            "name": "com.google.errorprone:error_prone_annotations",
+            "version": "2.43.0"
+          },
+          {
+            "name": "com.nimbusds:content-type",
+            "version": "2.3"
+          },
+          {
+            "name": "com.nimbusds:lang-tag",
+            "version": "1.7"
+          },
+          {
+            "name": "com.nimbusds:nimbus-jose-jwt",
+            "version": "10.4"
+          },
+          {
+            "name": "com.nimbusds:oauth2-oidc-sdk",
+            "version": "11.26.1"
+          },
+          {
+            "name": "com.squareup.okio:okio-jvm",
+            "version": "3.16.4"
+          },
+          {
+            "name": "com.sun.istack:istack-commons-runtime",
+            "version": "4.1.2"
+          },
+          {
+            "name": "com.twelvemonkeys.common:common-image",
+            "version": "3.13.1"
+          },
+          {
+            "name": "com.twelvemonkeys.common:common-io",
+            "version": "3.13.1"
+          },
+          {
+            "name": "com.twelvemonkeys.common:common-lang",
+            "version": "3.13.1"
+          },
+          {
+            "name": "com.twelvemonkeys.imageio:imageio-bmp",
+            "version": "3.13.1"
+          },
+          {
+            "name": "com.twelvemonkeys.imageio:imageio-core",
+            "version": "3.13.1"
+          },
+          {
+            "name": "com.twelvemonkeys.imageio:imageio-jpeg",
+            "version": "3.13.1"
+          },
+          {
+            "name": "com.twelvemonkeys.imageio:imageio-metadata",
+            "version": "3.13.1"
+          },
+          {
+            "name": "com.twelvemonkeys.imageio:imageio-tiff",
+            "version": "3.13.1"
+          },
+          {
+            "name": "com.twelvemonkeys.imageio:imageio-webp",
+            "version": "3.13.1"
+          },
+          {
+            "name": "com.zaxxer:HikariCP",
+            "version": "7.0.2"
+          },
+          {
+            "name": "commons-codec:commons-codec",
+            "version": "1.19.0"
+          },
+          {
+            "name": "commons-io:commons-io",
+            "version": "2.20.0"
+          },
+          {
+            "name": "commons-logging:commons-logging",
+            "version": "1.3.5"
+          },
+          {
+            "name": "io.documentnode:epub4j-core",
+            "version": "4.2.3"
+          },
+          {
+            "name": "io.documentnode:minilog",
+            "version": "1.0"
+          },
+          {
+            "name": "io.jsonwebtoken:jjwt-api",
+            "version": "0.13.0"
+          },
+          {
+            "name": "io.jsonwebtoken:jjwt-impl",
+            "version": "0.13.0"
+          },
+          {
+            "name": "io.jsonwebtoken:jjwt-jackson",
+            "version": "0.13.0"
+          },
+          {
+            "name": "io.micrometer:micrometer-commons",
+            "version": "1.16.3"
+          },
+          {
+            "name": "io.micrometer:micrometer-core",
+            "version": "1.16.3"
+          },
+          {
+            "name": "io.micrometer:micrometer-jakarta9",
+            "version": "1.16.3"
+          },
+          {
+            "name": "io.micrometer:micrometer-observation",
+            "version": "1.16.3"
+          },
+          {
+            "name": "io.projectreactor:reactor-core",
+            "version": "3.8.3"
+          },
+          {
+            "name": "io.swagger.core.v3:swagger-annotations-jakarta",
+            "version": "2.2.43"
+          },
+          {
+            "name": "io.swagger.core.v3:swagger-core-jakarta",
+            "version": "2.2.43"
+          },
+          {
+            "name": "io.swagger.core.v3:swagger-models-jakarta",
+            "version": "2.2.43"
+          },
+          {
+            "name": "jakarta.activation:jakarta.activation-api",
+            "version": "2.1.4"
+          },
+          {
+            "name": "jakarta.annotation:jakarta.annotation-api",
+            "version": "3.0.0"
+          },
+          {
+            "name": "jakarta.inject:jakarta.inject-api",
+            "version": "2.0.1"
+          },
+          {
+            "name": "jakarta.mail:jakarta.mail-api",
+            "version": "2.1.5"
+          },
+          {
+            "name": "jakarta.persistence:jakarta.persistence-api",
+            "version": "3.2.0"
+          },
+          {
+            "name": "jakarta.transaction:jakarta.transaction-api",
+            "version": "2.0.1"
+          },
+          {
+            "name": "jakarta.validation:jakarta.validation-api",
+            "version": "3.1.1"
+          },
+          {
+            "name": "jakarta.xml.bind:jakarta.xml.bind-api",
+            "version": "4.0.5"
+          },
+          {
+            "name": "net.bytebuddy:byte-buddy",
+            "version": "1.17.8"
+          },
+          {
+            "name": "net.jthink:jaudiotagger",
+            "version": "2.3.15"
+          },
+          {
+            "name": "net.lingala.zip4j:zip4j",
+            "version": "2.11.5"
+          },
+          {
+            "name": "net.minidev:accessors-smart",
+            "version": "2.6.0"
+          },
+          {
+            "name": "net.minidev:json-smart",
+            "version": "2.6.0"
+          },
+          {
+            "name": "org.antlr:antlr4-runtime",
+            "version": "4.13.2"
+          },
+          {
+            "name": "org.apache.commons:commons-compress",
+            "version": "1.28.0"
+          },
+          {
+            "name": "org.apache.commons:commons-lang3",
+            "version": "3.19.0"
+          },
+          {
+            "name": "org.apache.commons:commons-text",
+            "version": "1.15.0"
+          },
+          {
+            "name": "org.apache.logging.log4j:log4j-api",
+            "version": "2.25.3"
+          },
+          {
+            "name": "org.apache.logging.log4j:log4j-to-slf4j",
+            "version": "2.25.3"
+          },
+          {
+            "name": "org.apache.pdfbox:fontbox",
+            "version": "3.0.6"
+          },
+          {
+            "name": "org.apache.pdfbox:jbig2-imageio",
+            "version": "3.0.4"
+          },
+          {
+            "name": "org.apache.pdfbox:pdfbox",
+            "version": "3.0.6"
+          },
+          {
+            "name": "org.apache.pdfbox:pdfbox-io",
+            "version": "3.0.6"
+          },
+          {
+            "name": "org.apache.pdfbox:xmpbox",
+            "version": "3.0.6"
+          },
+          {
+            "name": "org.apache.tomcat.embed:tomcat-embed-core",
+            "version": "11.0.18"
+          },
+          {
+            "name": "org.apache.tomcat.embed:tomcat-embed-el",
+            "version": "11.0.18"
+          },
+          {
+            "name": "org.apache.tomcat.embed:tomcat-embed-websocket",
+            "version": "11.0.18"
+          },
+          {
+            "name": "org.aspectj:aspectjweaver",
+            "version": "1.9.25.1"
+          },
+          {
+            "name": "org.eclipse.angus:angus-activation",
+            "version": "2.0.3"
+          },
+          {
+            "name": "org.eclipse.angus:angus-core",
+            "version": "2.0.5"
+          },
+          {
+            "name": "org.eclipse.angus:angus-mail",
+            "version": "2.0.5"
+          },
+          {
+            "name": "org.eclipse.angus:imap",
+            "version": "2.0.5"
+          },
+          {
+            "name": "org.eclipse.angus:logging-mailhandler",
+            "version": "2.0.5"
+          },
+          {
+            "name": "org.eclipse.angus:pop3",
+            "version": "2.0.5"
+          },
+          {
+            "name": "org.eclipse.angus:smtp",
+            "version": "2.0.5"
+          },
+          {
+            "name": "org.flywaydb:flyway-core",
+            "version": "11.14.1"
+          },
+          {
+            "name": "org.flywaydb:flyway-mysql",
+            "version": "12.0.3"
+          },
+          {
+            "name": "org.freemarker:freemarker",
+            "version": "2.3.34"
+          },
+          {
+            "name": "org.glassfish.jaxb:jaxb-core",
+            "version": "4.0.6"
+          },
+          {
+            "name": "org.glassfish.jaxb:jaxb-runtime",
+            "version": "4.0.6"
+          },
+          {
+            "name": "org.glassfish.jaxb:txw2",
+            "version": "4.0.6"
+          },
+          {
+            "name": "org.hdrhistogram:HdrHistogram",
+            "version": "2.2.2"
+          },
+          {
+            "name": "org.hibernate.models:hibernate-models",
+            "version": "1.0.1"
+          },
+          {
+            "name": "org.hibernate.validator:hibernate-validator",
+            "version": "9.0.1.Final"
+          },
+          {
+            "name": "org.hibernate:hibernate-core",
+            "version": "7.2.6.Final"
+          },
+          {
+            "name": "org.jboss.logging:jboss-logging",
+            "version": "3.6.2.Final"
+          },
+          {
+            "name": "org.jetbrains.kotlin:kotlin-stdlib",
+            "version": "2.2.21"
+          },
+          {
+            "name": "org.jetbrains:annotations",
+            "version": "13.0"
+          },
+          {
+            "name": "org.json:json",
+            "version": "20250517"
+          },
+          {
+            "name": "org.jsoup:jsoup",
+            "version": "1.22.1"
+          },
+          {
+            "name": "org.jspecify:jspecify",
+            "version": "1.0.0"
+          },
+          {
+            "name": "org.latencyutils:LatencyUtils",
+            "version": "2.0.3"
+          },
+          {
+            "name": "org.mapstruct:mapstruct",
+            "version": "1.6.3"
+          },
+          {
+            "name": "org.mariadb.jdbc:mariadb-java-client",
+            "version": "3.5.7"
+          },
+          {
+            "name": "org.ow2.asm:asm",
+            "version": "9.7.1"
+          },
+          {
+            "name": "org.reactivestreams:reactive-streams",
+            "version": "1.0.4"
+          },
+          {
+            "name": "org.robolectric:android-kxml2",
+            "version": "4.1.2_r1_rc"
+          },
+          {
+            "name": "org.slf4j:jul-to-slf4j",
+            "version": "2.0.17"
+          },
+          {
+            "name": "org.slf4j:slf4j-api",
+            "version": "2.0.17"
+          },
+          {
+            "name": "org.springdoc:springdoc-openapi-starter-common",
+            "version": "3.0.2"
+          },
+          {
+            "name": "org.springdoc:springdoc-openapi-starter-webmvc-api",
+            "version": "3.0.2"
+          },
+          {
+            "name": "org.springdoc:springdoc-openapi-starter-webmvc-ui",
+            "version": "3.0.2"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-actuator",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-autoconfigure",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-cache",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-configuration-processor",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-data-commons",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-data-jpa",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-flyway",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-health",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-hibernate",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-http-converter",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-jackson",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-jarmode-tools",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-jdbc",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-jpa",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-mail",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-micrometer-metrics",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-micrometer-observation",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-persistence",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-security",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-security-oauth2-client",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-servlet",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-sql",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-tomcat",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-transaction",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-validation",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-web-server",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-webmvc",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-websocket",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.data:spring-data-commons",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.data:spring-data-jpa",
+            "version": "4.0.3"
+          },
+          {
+            "name": "org.springframework.security:spring-security-config",
+            "version": "7.0.3"
+          },
+          {
+            "name": "org.springframework.security:spring-security-core",
+            "version": "7.0.3"
+          },
+          {
+            "name": "org.springframework.security:spring-security-crypto",
+            "version": "7.0.3"
+          },
+          {
+            "name": "org.springframework.security:spring-security-oauth2-client",
+            "version": "7.0.3"
+          },
+          {
+            "name": "org.springframework.security:spring-security-oauth2-core",
+            "version": "7.0.3"
+          },
+          {
+            "name": "org.springframework.security:spring-security-oauth2-jose",
+            "version": "7.0.3"
+          },
+          {
+            "name": "org.springframework.security:spring-security-web",
+            "version": "7.0.3"
+          },
+          {
+            "name": "org.springframework:spring-aop",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-aspects",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-beans",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-context",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-context-support",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-core",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-expression",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-jdbc",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-messaging",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-orm",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-tx",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-web",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-webmvc",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.springframework:spring-websocket",
+            "version": "7.0.5"
+          },
+          {
+            "name": "org.tukaani:xz",
+            "version": "1.12"
+          },
+          {
+            "name": "org.webjars:swagger-ui",
+            "version": "5.32.0"
+          },
+          {
+            "name": "org.webjars:webjars-locator-lite",
+            "version": "1.1.3"
+          },
+          {
+            "name": "org.yaml:snakeyaml",
+            "version": "2.5"
+          },
+          {
+            "name": "tools.jackson.core:jackson-core",
+            "version": "3.0.4"
+          },
+          {
+            "name": "tools.jackson.core:jackson-databind",
+            "version": "3.0.4"
+          },
+          {
+            "name": "tools.jackson.module:jackson-module-blackbird",
+            "version": "3.0.4"
+          },
+          {
+            "name": "xmlpull:xmlpull",
+            "version": "1.1.3.4d_b4_min"
+          }
+        ],
+        "node": [],
+        "php": [],
+        "python": [
+          {
+            "name": "example",
+            "version": "21.12"
+          },
+          {
+            "name": "packaging",
+            "version": "25.0"
+          }
+        ],
+        "ruby": [],
+        "rust": []
+      },
+      "summary": {
+        "freebsd": 66,
+        "dotnet": 0,
+        "go": 11,
+        "java": 170,
+        "node": 0,
+        "php": 0,
+        "python": 2,
+        "ruby": 0,
+        "rust": 0,
+        "total": 249
+      }
+    }
+  }
+}
