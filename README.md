@@ -12,7 +12,7 @@ Self-hosted digital library — successor to BookLore, with smart shelves, metad
 
 | | |
 |---|---|
-| **Registry** | `localhost/grimmory` |
+| **Registry** | `ghcr.io/daemonless/grimmory` |
 | **Source** | [https://github.com/grimmory-tools/grimmory](https://github.com/grimmory-tools/grimmory) |
 | **Website** | [https://grimmory.org/](https://grimmory.org/) |
 
@@ -33,7 +33,7 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 ```yaml
 services:
   grimmory:
-    image: localhost/grimmory:latest
+    image: ghcr.io/daemonless/grimmory:latest
     container_name: grimmory
     environment:
       - PUID=1000
@@ -62,7 +62,7 @@ podman run -d --name grimmory \
   -v /path/to/containers/grimmory/app/data:/app/data \
   -v /path/to/books:/books \
   -v /path/to/containers/grimmory/bookdrop:/bookdrop \
-  localhost/grimmory:latest
+  ghcr.io/daemonless/grimmory:latest
 ```
 
 ### Ansible
@@ -71,7 +71,7 @@ podman run -d --name grimmory \
 - name: Deploy grimmory
   containers.podman.podman_container:
     name: grimmory
-    image: localhost/grimmory:latest
+    image: ghcr.io/daemonless/grimmory:latest
     state: started
     restart_policy: always
     env:
@@ -112,3 +112,6 @@ podman run -d --name grimmory \
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
 **Base:** FreeBSD 15.0
 
+---
+
+Need help? Join our [Discord](https://discord.gg/Kb9tkhecZT) community.
