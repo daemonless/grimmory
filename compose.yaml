@@ -38,7 +38,7 @@ services:
       - SPRING_DATASOURCE_PASSWORD=changeme
     volumes:
       - grimmory-data:/app/data
-      - grimmory-books:/books
+      - /path/to/books:/books
       - grimmory-bookdrop:/bookdrop
     depends_on:
       - mariadb
@@ -62,6 +62,5 @@ services:
 
 volumes:
   grimmory-data:
-  grimmory-books:
   grimmory-bookdrop:
   grimmory-mariadb:
