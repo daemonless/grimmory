@@ -1,12 +1,12 @@
 {
   "image": "grimmory",
-  "generated": "2026-03-23T23:54:52Z",
+  "generated": "2026-03-26T00:16:42Z",
   "tags": {
     "latest": {
       "arch": "amd64",
       "app_version": "2.3.0",
       "source": "upstream",
-      "generated": "2026-03-23T23:54:38Z",
+      "generated": "2026-03-26T00:16:27Z",
       "packages": {
         "freebsd": [
           {
