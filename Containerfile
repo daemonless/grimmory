@@ -61,10 +61,12 @@ RUN mkdir -p /app/data /books /bookdrop /app/logs && \
 RUN chmod +x /etc/services.d/*/run /etc/cont-init.d/* /healthz 2>/dev/null || true
 
 ENV GRIMMORY_PORT=6060 \
-    SPRING_DATASOURCE_URL="" \
-    SPRING_DATASOURCE_USERNAME="" \
-    SPRING_DATASOURCE_PASSWORD="" \
-    JAVA_OPTS=""
+    DATABASE_URL="" \
+    DATABASE_USERNAME="" \
+    DATABASE_PASSWORD="" \
+    SWAGGER_ENABLED="false" \
+    FORCE_DISABLE_OIDC="false" \
+    JAVA_TOOL_OPTIONS=""
 
 # --- Expose (Injected by Generator) ---
 

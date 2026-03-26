@@ -39,14 +39,76 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
-      - SPRING_DATASOURCE_URL=jdbc:mariadb://127.0.0.1:3306/grimmory
-      - SPRING_DATASOURCE_USERNAME=grimmory
-      - SPRING_DATASOURCE_PASSWORD=changeme
+      - DATABASE_URL=jdbc:mariadb://127.0.0.1:3306/grimmory
+      - DATABASE_USERNAME=grimmory
+      - DATABASE_PASSWORD=changeme
+      - SWAGGER_ENABLED=false
+      - FORCE_DISABLE_OIDC=false
     volumes:
       - "/path/to/containers/grimmory/app/data:/app/data"
       - "/path/to/books:/books"
       - "/path/to/containers/grimmory/bookdrop:/bookdrop"
     restart: unless-stopped
+```
+
+### AppJail Director
+
+**.env**:
+
+```
+DIRECTOR_PROJECT=grimmory
+PUID=1000
+PGID=1000
+TZ=Etc/UTC
+DATABASE_URL=jdbc:mariadb://127.0.0.1:3306/grimmory
+DATABASE_USERNAME=grimmory
+DATABASE_PASSWORD=changeme
+SWAGGER_ENABLED=false
+FORCE_DISABLE_OIDC=false
+```
+
+**appjail-director.yml**:
+
+```yaml
+options:
+  - virtualnet: ':<random> default'
+  - nat:
+services:
+  grimmory:
+    name: grimmory
+    options:
+      - container: 'boot args:--pull'
+    oci:
+      user: root
+      environment:
+        - PUID: !ENV '${PUID}'
+        - PGID: !ENV '${PGID}'
+        - TZ: !ENV '${TZ}'
+        - DATABASE_URL: !ENV '${DATABASE_URL}'
+        - DATABASE_USERNAME: !ENV '${DATABASE_USERNAME}'
+        - DATABASE_PASSWORD: !ENV '${DATABASE_PASSWORD}'
+        - SWAGGER_ENABLED: !ENV '${SWAGGER_ENABLED}'
+        - FORCE_DISABLE_OIDC: !ENV '${FORCE_DISABLE_OIDC}'
+    volumes:
+      - grimmory_app_data: /app/data
+      - books: /books
+      - grimmory_bookdrop: /bookdrop
+volumes:
+  grimmory_app_data:
+    device: '/path/to/containers/grimmory/app/data'
+  books:
+    device: 'books'
+  grimmory_bookdrop:
+    device: '/path/to/containers/grimmory/bookdrop'
+```
+
+**Makejail**:
+
+```
+ARG tag=latest
+
+OPTION overwrite=force
+OPTION from=ghcr.io/daemonless/grimmory:${tag}
 ```
 
 ### Podman CLI
@@ -56,9 +118,11 @@ podman run -d --name grimmory \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
-  -e SPRING_DATASOURCE_URL=jdbc:mariadb://127.0.0.1:3306/grimmory \
-  -e SPRING_DATASOURCE_USERNAME=grimmory \
-  -e SPRING_DATASOURCE_PASSWORD=changeme \
+  -e DATABASE_URL=jdbc:mariadb://127.0.0.1:3306/grimmory \
+  -e DATABASE_USERNAME=grimmory \
+  -e DATABASE_PASSWORD=changeme \
+  -e SWAGGER_ENABLED=false \
+  -e FORCE_DISABLE_OIDC=false \
   -v /path/to/containers/grimmory/app/data:/app/data \
   -v /path/to/books:/books \
   -v /path/to/containers/grimmory/bookdrop:/bookdrop \
@@ -78,9 +142,11 @@ podman run -d --name grimmory \
       PUID: "1000"
       PGID: "1000"
       TZ: "Etc/UTC"
-      SPRING_DATASOURCE_URL: "jdbc:mariadb://127.0.0.1:3306/grimmory"
-      SPRING_DATASOURCE_USERNAME: "grimmory"
-      SPRING_DATASOURCE_PASSWORD: "changeme"
+      DATABASE_URL: "jdbc:mariadb://127.0.0.1:3306/grimmory"
+      DATABASE_USERNAME: "grimmory"
+      DATABASE_PASSWORD: "changeme"
+      SWAGGER_ENABLED: "false"
+      FORCE_DISABLE_OIDC: "false"
     volumes:
       - "/path/to/containers/grimmory/app/data:/app/data"
       - "/path/to/books:/books"
@@ -96,9 +162,11 @@ podman run -d --name grimmory \
 | `PUID` | `1000` |  |
 | `PGID` | `1000` |  |
 | `TZ` | `Etc/UTC` |  |
-| `SPRING_DATASOURCE_URL` | `jdbc:mariadb://127.0.0.1:3306/grimmory` | MariaDB JDBC URL (e.g., jdbc:mariadb://127.0.0.1:3306/grimmory) |
-| `SPRING_DATASOURCE_USERNAME` | `grimmory` | Database username |
-| `SPRING_DATASOURCE_PASSWORD` | `changeme` | Database password |
+| `DATABASE_URL` | `jdbc:mariadb://127.0.0.1:3306/grimmory` | MariaDB JDBC URL (e.g., jdbc:mariadb://127.0.0.1:3306/grimmory) |
+| `DATABASE_USERNAME` | `grimmory` | Database username |
+| `DATABASE_PASSWORD` | `changeme` | Database password |
+| `SWAGGER_ENABLED` | `false` | Enable Swagger UI (default: false) |
+| `FORCE_DISABLE_OIDC` | `false` | Force-disable OIDC authentication (default: false) |
 
 ### Volumes
 

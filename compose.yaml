@@ -9,14 +9,17 @@ x-daemonless:
   web_url: "https://grimmory.org/"
   user: "bsd"
   mlock: false
+  appjail: true
   upstream_binary: true
 
   docs:
     env:
-      SPRING_DATASOURCE_URL: "MariaDB JDBC URL (e.g., jdbc:mariadb://127.0.0.1:3306/grimmory)"
-      SPRING_DATASOURCE_USERNAME: "Database username"
-      SPRING_DATASOURCE_PASSWORD: "Database password"
-      JAVA_OPTS: "Additional JVM options"
+      DATABASE_URL: "MariaDB JDBC URL (e.g., jdbc:mariadb://127.0.0.1:3306/grimmory)"
+      DATABASE_USERNAME: "Database username"
+      DATABASE_PASSWORD: "Database password"
+      SWAGGER_ENABLED: "Enable Swagger UI (default: false)"
+      FORCE_DISABLE_OIDC: "Force-disable OIDC authentication (default: false)"
+      JAVA_TOOL_OPTIONS: "Additional JVM options (e.g., -Xmx256m)"
     volumes:
       /app/data: "Configuration and application data"
       /books: "Book library directory"
@@ -33,9 +36,11 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
-      - SPRING_DATASOURCE_URL=jdbc:mariadb://127.0.0.1:3306/grimmory
-      - SPRING_DATASOURCE_USERNAME=grimmory
-      - SPRING_DATASOURCE_PASSWORD=changeme
+      - DATABASE_URL=jdbc:mariadb://127.0.0.1:3306/grimmory
+      - DATABASE_USERNAME=grimmory
+      - DATABASE_PASSWORD=changeme
+      - SWAGGER_ENABLED=false
+      - FORCE_DISABLE_OIDC=false
     volumes:
       - grimmory-data:/app/data
       - /path/to/books:/books
