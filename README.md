@@ -10,6 +10,7 @@ Source: dbuild templates
 
 Self-hosted digital library — successor to BookLore, with smart shelves, metadata, Kobo/KOReader sync, OPDS support, and a built-in reader.
 
+
 | | |
 |---|---|
 | **Registry** | `ghcr.io/daemonless/grimmory` |
