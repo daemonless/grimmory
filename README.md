@@ -10,7 +10,6 @@ Source: dbuild templates
 
 Self-hosted digital library — successor to BookLore, with smart shelves, metadata, Kobo/KOReader sync, OPDS support, and a built-in reader.
 
-
 | | |
 |---|---|
 | **Registry** | `ghcr.io/daemonless/grimmory` |
@@ -50,66 +49,6 @@ services:
       - "/path/to/books:/books"
       - "/path/to/containers/grimmory/bookdrop:/bookdrop"
     restart: unless-stopped
-```
-
-### AppJail Director
-
-**.env**:
-
-```
-DIRECTOR_PROJECT=grimmory
-PUID=1000
-PGID=1000
-TZ=Etc/UTC
-DATABASE_URL=jdbc:mariadb://127.0.0.1:3306/grimmory
-DATABASE_USERNAME=grimmory
-DATABASE_PASSWORD=changeme
-SWAGGER_ENABLED=false
-FORCE_DISABLE_OIDC=false
-```
-
-**appjail-director.yml**:
-
-```yaml
-options:
-  - virtualnet: ':<random> default'
-  - nat:
-services:
-  grimmory:
-    name: grimmory
-    options:
-      - container: 'boot args:--pull'
-    oci:
-      user: root
-      environment:
-        - PUID: !ENV '${PUID}'
-        - PGID: !ENV '${PGID}'
-        - TZ: !ENV '${TZ}'
-        - DATABASE_URL: !ENV '${DATABASE_URL}'
-        - DATABASE_USERNAME: !ENV '${DATABASE_USERNAME}'
-        - DATABASE_PASSWORD: !ENV '${DATABASE_PASSWORD}'
-        - SWAGGER_ENABLED: !ENV '${SWAGGER_ENABLED}'
-        - FORCE_DISABLE_OIDC: !ENV '${FORCE_DISABLE_OIDC}'
-    volumes:
-      - grimmory_app_data: /app/data
-      - books: /books
-      - grimmory_bookdrop: /bookdrop
-volumes:
-  grimmory_app_data:
-    device: '/path/to/containers/grimmory/app/data'
-  books:
-    device: 'books'
-  grimmory_bookdrop:
-    device: '/path/to/containers/grimmory/bookdrop'
-```
-
-**Makejail**:
-
-```
-ARG tag=latest
-
-OPTION overwrite=force
-OPTION from=ghcr.io/daemonless/grimmory:${tag}
 ```
 
 ### Podman CLI
