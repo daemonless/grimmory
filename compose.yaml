@@ -13,6 +13,7 @@ x-daemonless:
   upstream_binary: true
 
   docs:
+    manual: true
     env:
       DATABASE_URL: "MariaDB JDBC URL (e.g., jdbc:mariadb://127.0.0.1:3306/grimmory)"
       DATABASE_USERNAME: "Database username"
