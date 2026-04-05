@@ -1,13 +1,13 @@
 {
+  "generated": "2026-04-05T20:08:41Z",
   "image": "grimmory",
-  "generated": "2026-03-29T20:02:29Z",
   "tags": {
     "latest": {
-      "arch": "amd64",
       "app_version": "2.3.0",
-      "source": "upstream",
-      "generated": "2026-03-29T20:02:08Z",
+      "arch": "amd64",
+      "generated": "2026-04-05T20:07:10Z",
       "packages": {
+        "dotnet": [],
         "freebsd": [
           {
             "name": "FreeBSD-audit-lib",
@@ -258,10 +258,6 @@
             "version": "2.13.2.0"
           },
           {
-            "name": "s6-rc",
-            "version": "0.5.6.0"
-          },
-          {
             "name": "skalibs",
             "version": "2.14.4.0"
           },
@@ -274,16 +270,7 @@
             "version": "1.5.7_1"
           }
         ],
-        "dotnet": [],
         "go": [
-          {
-            "name": "github.com/pgaskin/kepubify/v4",
-            "version": ""
-          },
-          {
-            "name": "stdlib",
-            "version": "v1.24.13"
-          },
           {
             "name": "github.com/bamiaux/rez",
             "version": "v0.0.0-20170731184118-29f4463c688b"
@@ -291,6 +278,22 @@
           {
             "name": "github.com/beevik/etree",
             "version": "v1.1.0"
+          },
+          {
+            "name": "github.com/kr/smartypants",
+            "version": "v0.1.0"
+          },
+          {
+            "name": "github.com/mattn/go-sqlite3",
+            "version": "v1.14.12"
+          },
+          {
+            "name": "github.com/pgaskin/kepubify/_/html",
+            "version": "v0.0.0-20211223234002-6ee2cc632cdc"
+          },
+          {
+            "name": "github.com/pgaskin/kepubify/v4",
+            "version": ""
           },
           {
             "name": "github.com/pgaskin/koboutils/v2",
@@ -301,14 +304,6 @@
             "version": "v1.0.5"
           },
           {
-            "name": "github.com/kr/smartypants",
-            "version": "v0.1.0"
-          },
-          {
-            "name": "github.com/pgaskin/kepubify/_/html",
-            "version": "v0.0.0-20211223234002-6ee2cc632cdc"
-          },
-          {
             "name": "golang.org/x/sync",
             "version": "v0.0.0-20210220032951-036812b2e83c"
           },
@@ -317,8 +312,8 @@
             "version": "v0.3.6"
           },
           {
-            "name": "github.com/mattn/go-sqlite3",
-            "version": "v1.14.12"
+            "name": "stdlib",
+            "version": "v1.24.13"
           }
         ],
         "java": [
@@ -1018,9 +1013,10 @@
         "ruby": [],
         "rust": []
       },
+      "source": "upstream",
       "summary": {
-        "freebsd": 66,
         "dotnet": 0,
+        "freebsd": 65,
         "go": 11,
         "java": 170,
         "node": 0,
@@ -1028,7 +1024,7 @@
         "python": 2,
         "ruby": 0,
         "rust": 0,
-        "total": 249
+        "total": 248
       }
     }
   }
