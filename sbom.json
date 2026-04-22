@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-22T21:27:44Z",
+  "generated": "2026-04-22T22:45:45Z",
   "image": "grimmory",
   "tags": {
     "latest": {
-      "app_version": "2.3.1",
+      "app_version": "3.0.0",
       "arch": "amd64",
-      "generated": "2026-04-22T21:26:26Z",
+      "generated": "2026-04-22T22:44:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -30,8 +30,16 @@
             "version": "15.0"
           },
           {
+            "name": "FreeBSD-clibs-lib32",
+            "version": "15.0"
+          },
+          {
             "name": "FreeBSD-ctf-lib",
             "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-devmatch",
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-fetch",
@@ -126,8 +134,28 @@
             "version": "15.0"
           },
           {
+            "name": "Imath",
+            "version": "3.2.2_2"
+          },
+          {
             "name": "alsa-lib",
             "version": "1.2.15.3"
+          },
+          {
+            "name": "aom",
+            "version": "3.13.3"
+          },
+          {
+            "name": "bash",
+            "version": "5.3.9"
+          },
+          {
+            "name": "binutils",
+            "version": "2.44,1"
+          },
+          {
+            "name": "boost-libs",
+            "version": "1.89.0_2"
           },
           {
             "name": "brotli",
@@ -138,6 +166,14 @@
             "version": "3.117_2"
           },
           {
+            "name": "cairo",
+            "version": "1.18.2,3"
+          },
+          {
+            "name": "dav1d",
+            "version": "1.5.3_1"
+          },
+          {
             "name": "execline",
             "version": "2.9.8.1"
           },
@@ -146,12 +182,28 @@
             "version": "2.7.5"
           },
           {
+            "name": "ffmpeg",
+            "version": "8.1,1"
+          },
+          {
             "name": "fontconfig",
             "version": "2.17.1,1"
           },
           {
             "name": "freetype2",
             "version": "2.14.3"
+          },
+          {
+            "name": "fribidi",
+            "version": "1.0.16"
+          },
+          {
+            "name": "gcc14",
+            "version": "14.2.0_4"
+          },
+          {
+            "name": "gdk-pixbuf2",
+            "version": "2.44.1"
           },
           {
             "name": "gettext-runtime",
@@ -166,12 +218,32 @@
             "version": "2.84.4,2"
           },
           {
+            "name": "gmp",
+            "version": "6.3.0"
+          },
+          {
+            "name": "gnutls",
+            "version": "3.8.12"
+          },
+          {
             "name": "graphite2",
             "version": "1.3.14"
           },
           {
             "name": "harfbuzz",
             "version": "13.2.1"
+          },
+          {
+            "name": "highway",
+            "version": "1.3.0"
+          },
+          {
+            "name": "hwdata",
+            "version": "0.405,1"
+          },
+          {
+            "name": "icu",
+            "version": "76.1,1"
           },
           {
             "name": "indexinfo",
@@ -196,6 +268,10 @@
           {
             "name": "kepubify",
             "version": "4.0.4_38"
+          },
+          {
+            "name": "lame",
+            "version": "3.100_5"
           },
           {
             "name": "lcms2",
@@ -234,6 +310,10 @@
             "version": "6.0.1"
           },
           {
+            "name": "libXft",
+            "version": "2.3.8"
+          },
+          {
             "name": "libXi",
             "version": "1.8.2,1"
           },
@@ -254,36 +334,196 @@
             "version": "1.2.5"
           },
           {
+            "name": "libXv",
+            "version": "1.0.13,1"
+          },
+          {
+            "name": "libass",
+            "version": "0.17.4"
+          },
+          {
+            "name": "libbluray",
+            "version": "1.4.1,1"
+          },
+          {
+            "name": "libdatrie",
+            "version": "0.2.14_1"
+          },
+          {
             "name": "libdeflate",
             "version": "1.25"
+          },
+          {
+            "name": "libdrm",
+            "version": "2.4.131,1"
+          },
+          {
+            "name": "libdvdnav",
+            "version": "7.0.0"
+          },
+          {
+            "name": "libdvdread",
+            "version": "7.0.0"
+          },
+          {
+            "name": "libepoll-shim",
+            "version": "0.0.20240608"
           },
           {
             "name": "libffi",
             "version": "3.5.1"
           },
           {
+            "name": "libglvnd",
+            "version": "1.7.0"
+          },
+          {
             "name": "libiconv",
             "version": "1.18_1"
+          },
+          {
+            "name": "libidn2",
+            "version": "2.3.8"
+          },
+          {
+            "name": "libjxl",
+            "version": "0.11.2"
+          },
+          {
+            "name": "libogg",
+            "version": "1.3.6,4"
+          },
+          {
+            "name": "libpciaccess",
+            "version": "0.18.1_1"
+          },
+          {
+            "name": "libplacebo",
+            "version": "7.360.1"
+          },
+          {
+            "name": "librsvg2-rust",
+            "version": "2.62.0_1"
+          },
+          {
+            "name": "libtasn1",
+            "version": "4.21.0"
+          },
+          {
+            "name": "libthai",
+            "version": "0.1.30"
+          },
+          {
+            "name": "libudev-devd",
+            "version": "0.6.0"
+          },
+          {
+            "name": "libudfread",
+            "version": "1.2.0"
+          },
+          {
+            "name": "libunibreak",
+            "version": "6.1,1"
+          },
+          {
+            "name": "libunistring",
+            "version": "1.4.2"
+          },
+          {
+            "name": "libunwind",
+            "version": "20250904"
+          },
+          {
+            "name": "libv4l",
+            "version": "1.23.0_5"
+          },
+          {
+            "name": "libva",
+            "version": "2.23.0"
+          },
+          {
+            "name": "libvdpau",
+            "version": "1.5"
+          },
+          {
+            "name": "libvorbis",
+            "version": "1.3.7_2,3"
+          },
+          {
+            "name": "libvpx",
+            "version": "1.16.0"
+          },
+          {
+            "name": "libx264",
+            "version": "0.164.3095"
           },
           {
             "name": "libxcb",
             "version": "1.17.0"
           },
           {
+            "name": "libxml2",
+            "version": "2.15.2"
+          },
+          {
+            "name": "lzo2",
+            "version": "2.10_1"
+          },
+          {
+            "name": "mpc",
+            "version": "1.4.0"
+          },
+          {
             "name": "mpdecimal",
             "version": "4.0.1"
+          },
+          {
+            "name": "mpfr",
+            "version": "4.2.2,1"
+          },
+          {
+            "name": "nettle",
+            "version": "3.10.2"
           },
           {
             "name": "oniguruma",
             "version": "6.9.10"
           },
           {
+            "name": "openblas",
+            "version": "0.3.30,2"
+          },
+          {
+            "name": "openexr",
+            "version": "3.4.9"
+          },
+          {
             "name": "openjdk25-jre-headless",
             "version": "25.0.2+10.f.1_2"
           },
           {
+            "name": "openjph",
+            "version": "0.26.3"
+          },
+          {
+            "name": "opus",
+            "version": "1.6.1"
+          },
+          {
+            "name": "p11-kit",
+            "version": "0.26.2"
+          },
+          {
+            "name": "pango",
+            "version": "1.56.4_1"
+          },
+          {
             "name": "pcre2",
             "version": "10.47_1"
+          },
+          {
+            "name": "pixman",
+            "version": "0.46.2"
           },
           {
             "name": "pkg",
@@ -292,6 +532,14 @@
           {
             "name": "png",
             "version": "1.6.57"
+          },
+          {
+            "name": "py311-boost-libs",
+            "version": "1.89.0"
+          },
+          {
+            "name": "py311-numpy",
+            "version": "1.26.4_12,1"
           },
           {
             "name": "py311-packaging",
@@ -310,16 +558,84 @@
             "version": "2.14.0.1"
           },
           {
+            "name": "shaderc",
+            "version": "2026.1"
+          },
+          {
+            "name": "shared-mime-info",
+            "version": "2.4_2"
+          },
+          {
             "name": "skalibs",
             "version": "2.14.5.1"
+          },
+          {
+            "name": "srt",
+            "version": "1.5.4"
+          },
+          {
+            "name": "suitesparse-amd",
+            "version": "3.3.4"
+          },
+          {
+            "name": "suitesparse-camd",
+            "version": "3.3.5"
+          },
+          {
+            "name": "suitesparse-ccolamd",
+            "version": "3.3.5"
+          },
+          {
+            "name": "suitesparse-cholmod",
+            "version": "5.3.4"
+          },
+          {
+            "name": "suitesparse-colamd",
+            "version": "3.3.5"
+          },
+          {
+            "name": "suitesparse-config",
+            "version": "7.12.2"
+          },
+          {
+            "name": "suitesparse-umfpack",
+            "version": "6.3.7"
+          },
+          {
+            "name": "svt-av1",
+            "version": "4.1.0"
           },
           {
             "name": "tiff",
             "version": "4.7.1_1"
           },
           {
+            "name": "vmaf",
+            "version": "3.0.0"
+          },
+          {
+            "name": "vulkan-loader",
+            "version": "1.4.336"
+          },
+          {
+            "name": "wayland",
+            "version": "1.24.0_2"
+          },
+          {
+            "name": "webp",
+            "version": "1.6.0"
+          },
+          {
+            "name": "x265",
+            "version": "4.1"
+          },
+          {
             "name": "xorgproto",
             "version": "2024.1"
+          },
+          {
+            "name": "xxhash",
+            "version": "0.8.3"
           },
           {
             "name": "zstd",
@@ -383,23 +699,23 @@
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-annotations",
-            "version": "2.20"
+            "version": "2.21"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-core",
-            "version": "2.20.2"
+            "version": "2.21.2"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-databind",
-            "version": "2.20.2"
+            "version": "2.21.2"
           },
           {
             "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
-            "version": "2.20.2"
+            "version": "2.21.2"
           },
           {
             "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
-            "version": "2.20.2"
+            "version": "2.21.2"
           },
           {
             "name": "com.fasterxml:classmate",
@@ -410,20 +726,16 @@
             "version": "3.2.3"
           },
           {
-            "name": "com.github.jai-imageio:jai-imageio-core",
-            "version": "1.4.0"
-          },
-          {
-            "name": "com.github.jai-imageio:jai-imageio-jpeg2000",
-            "version": "1.4.0"
-          },
-          {
-            "name": "com.github.junrar:junrar",
-            "version": "7.5.8"
+            "name": "com.github.gotson.nightcompress:nightcompress",
+            "version": "1.1.1"
           },
           {
             "name": "com.github.stephenc.jcip:jcip-annotations",
             "version": "1.0-1"
+          },
+          {
+            "name": "com.google.code.findbugs:jsr305",
+            "version": "3.0.2"
           },
           {
             "name": "com.google.code.gson:gson",
@@ -451,7 +763,7 @@
           },
           {
             "name": "com.squareup.okio:okio-jvm",
-            "version": "3.16.4"
+            "version": "3.17.0"
           },
           {
             "name": "com.sun.istack:istack-commons-runtime",
@@ -503,19 +815,11 @@
           },
           {
             "name": "commons-io:commons-io",
-            "version": "2.20.0"
+            "version": "2.21.0"
           },
           {
             "name": "commons-logging:commons-logging",
-            "version": "1.3.5"
-          },
-          {
-            "name": "io.documentnode:epub4j-core",
-            "version": "4.2.3"
-          },
-          {
-            "name": "io.documentnode:minilog",
-            "version": "1.0"
+            "version": "1.3.6"
           },
           {
             "name": "io.jsonwebtoken:jjwt-api",
@@ -531,35 +835,35 @@
           },
           {
             "name": "io.micrometer:micrometer-commons",
-            "version": "1.16.3"
+            "version": "1.16.4"
           },
           {
             "name": "io.micrometer:micrometer-core",
-            "version": "1.16.3"
+            "version": "1.16.4"
           },
           {
             "name": "io.micrometer:micrometer-jakarta9",
-            "version": "1.16.3"
+            "version": "1.16.4"
           },
           {
             "name": "io.micrometer:micrometer-observation",
-            "version": "1.16.3"
+            "version": "1.16.4"
           },
           {
             "name": "io.projectreactor:reactor-core",
-            "version": "3.8.3"
+            "version": "3.8.4"
           },
           {
             "name": "io.swagger.core.v3:swagger-annotations-jakarta",
-            "version": "2.2.43"
+            "version": "2.2.47"
           },
           {
             "name": "io.swagger.core.v3:swagger-core-jakarta",
-            "version": "2.2.43"
+            "version": "2.2.47"
           },
           {
             "name": "io.swagger.core.v3:swagger-models-jakarta",
-            "version": "2.2.43"
+            "version": "2.2.47"
           },
           {
             "name": "jakarta.activation:jakarta.activation-api",
@@ -602,10 +906,6 @@
             "version": "2.3.15"
           },
           {
-            "name": "net.lingala.zip4j:zip4j",
-            "version": "2.11.5"
-          },
-          {
             "name": "net.minidev:accessors-smart",
             "version": "2.6.0"
           },
@@ -638,36 +938,20 @@
             "version": "2.25.3"
           },
           {
-            "name": "org.apache.pdfbox:fontbox",
-            "version": "3.0.6"
-          },
-          {
-            "name": "org.apache.pdfbox:jbig2-imageio",
-            "version": "3.0.4"
-          },
-          {
-            "name": "org.apache.pdfbox:pdfbox",
-            "version": "3.0.6"
-          },
-          {
-            "name": "org.apache.pdfbox:pdfbox-io",
-            "version": "3.0.6"
-          },
-          {
-            "name": "org.apache.pdfbox:xmpbox",
-            "version": "3.0.6"
+            "name": "org.apache.tika:tika-core",
+            "version": "3.3.0"
           },
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-core",
-            "version": "11.0.18"
+            "version": "11.0.20"
           },
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-el",
-            "version": "11.0.18"
+            "version": "11.0.20"
           },
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-websocket",
-            "version": "11.0.18"
+            "version": "11.0.20"
           },
           {
             "name": "org.aspectj:aspectjweaver",
@@ -707,7 +991,7 @@
           },
           {
             "name": "org.flywaydb:flyway-mysql",
-            "version": "12.0.3"
+            "version": "12.4.0"
           },
           {
             "name": "org.freemarker:freemarker",
@@ -719,11 +1003,15 @@
           },
           {
             "name": "org.glassfish.jaxb:jaxb-runtime",
-            "version": "4.0.6"
+            "version": "4.0.7"
           },
           {
             "name": "org.glassfish.jaxb:txw2",
             "version": "4.0.6"
+          },
+          {
+            "name": "org.grimmory:pdfium4j",
+            "version": "0.10.0"
           },
           {
             "name": "org.hdrhistogram:HdrHistogram",
@@ -731,7 +1019,7 @@
           },
           {
             "name": "org.hibernate.models:hibernate-models",
-            "version": "1.0.1"
+            "version": "1.1.0"
           },
           {
             "name": "org.hibernate.validator:hibernate-validator",
@@ -739,11 +1027,11 @@
           },
           {
             "name": "org.hibernate:hibernate-core",
-            "version": "7.2.6.Final"
+            "version": "7.3.2.Final"
           },
           {
             "name": "org.jboss.logging:jboss-logging",
-            "version": "3.6.2.Final"
+            "version": "3.6.3.Final"
           },
           {
             "name": "org.jetbrains.kotlin:kotlin-stdlib",
@@ -759,7 +1047,7 @@
           },
           {
             "name": "org.jsoup:jsoup",
-            "version": "1.22.1"
+            "version": "1.22.2"
           },
           {
             "name": "org.jspecify:jspecify",
@@ -775,7 +1063,7 @@
           },
           {
             "name": "org.mariadb.jdbc:mariadb-java-client",
-            "version": "3.5.7"
+            "version": "3.5.8"
           },
           {
             "name": "org.ow2.asm:asm",
@@ -799,239 +1087,227 @@
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-common",
-            "version": "3.0.2"
+            "version": "3.0.3"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-webmvc-api",
-            "version": "3.0.2"
-          },
-          {
-            "name": "org.springdoc:springdoc-openapi-starter-webmvc-ui",
-            "version": "3.0.2"
+            "version": "3.0.3"
           },
           {
             "name": "org.springframework.boot:spring-boot",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-autoconfigure",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-cache",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-configuration-processor",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-data-commons",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-data-jpa",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-flyway",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-health",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-hibernate",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-http-converter",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-jackson",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-jarmode-tools",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-jdbc",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-jpa",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-mail",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-micrometer-metrics",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-micrometer-observation",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-persistence",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-security",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-security-oauth2-client",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-servlet",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-sql",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-tomcat",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-transaction",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-validation",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-web-server",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-webmvc",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.boot:spring-boot-websocket",
-            "version": "4.0.3"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.data:spring-data-commons",
-            "version": "4.0.3"
+            "version": "4.0.4"
           },
           {
             "name": "org.springframework.data:spring-data-jpa",
-            "version": "4.0.3"
+            "version": "4.0.4"
           },
           {
             "name": "org.springframework.security:spring-security-config",
-            "version": "7.0.3"
+            "version": "7.0.4"
           },
           {
             "name": "org.springframework.security:spring-security-core",
-            "version": "7.0.3"
+            "version": "7.0.4"
           },
           {
             "name": "org.springframework.security:spring-security-crypto",
-            "version": "7.0.3"
+            "version": "7.0.4"
           },
           {
             "name": "org.springframework.security:spring-security-oauth2-client",
-            "version": "7.0.3"
+            "version": "7.0.4"
           },
           {
             "name": "org.springframework.security:spring-security-oauth2-core",
-            "version": "7.0.3"
+            "version": "7.0.4"
           },
           {
             "name": "org.springframework.security:spring-security-oauth2-jose",
-            "version": "7.0.3"
+            "version": "7.0.4"
           },
           {
             "name": "org.springframework.security:spring-security-web",
-            "version": "7.0.3"
+            "version": "7.0.4"
           },
           {
             "name": "org.springframework:spring-aop",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-aspects",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-beans",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-context",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-context-support",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-core",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-expression",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-jdbc",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-messaging",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-orm",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-tx",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-web",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-webmvc",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.springframework:spring-websocket",
-            "version": "7.0.5"
+            "version": "7.0.6"
           },
           {
             "name": "org.tukaani:xz",
             "version": "1.12"
-          },
-          {
-            "name": "org.webjars:swagger-ui",
-            "version": "5.32.0"
-          },
-          {
-            "name": "org.webjars:webjars-locator-lite",
-            "version": "1.1.3"
           },
           {
             "name": "org.yaml:snakeyaml",
@@ -1039,27 +1315,36 @@
           },
           {
             "name": "tools.jackson.core:jackson-core",
-            "version": "3.0.4"
+            "version": "3.1.0"
           },
           {
             "name": "tools.jackson.core:jackson-databind",
-            "version": "3.0.4"
+            "version": "3.1.0"
           },
           {
             "name": "tools.jackson.module:jackson-module-blackbird",
-            "version": "3.0.4"
+            "version": "3.1.0"
           },
           {
             "name": "xmlpull:xmlpull",
             "version": "1.1.3.4d_b4_min"
           }
         ],
-        "node": [],
+        "node": [
+          {
+            "name": "MathJax-grunt-cleaner",
+            "version": "0.1.0"
+          }
+        ],
         "php": [],
         "python": [
           {
             "name": "example",
             "version": "21.12"
+          },
+          {
+            "name": "numpy",
+            "version": "1.26.4"
           },
           {
             "name": "packaging",
@@ -1072,15 +1357,15 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 79,
+        "freebsd": 158,
         "go": 11,
-        "java": 170,
-        "node": 0,
+        "java": 160,
+        "node": 1,
         "php": 0,
-        "python": 2,
+        "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 262
+        "total": 333
       }
     }
   }
