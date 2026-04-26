@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-22T22:45:45Z",
+  "generated": "2026-04-26T09:03:48Z",
   "image": "grimmory",
   "tags": {
     "latest": {
-      "app_version": "3.0.0",
+      "app_version": "3.0.2",
       "arch": "amd64",
-      "generated": "2026-04-22T22:44:27Z",
+      "generated": "2026-04-26T09:02:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -87,11 +87,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -103,7 +103,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -835,23 +835,23 @@
           },
           {
             "name": "io.micrometer:micrometer-commons",
-            "version": "1.16.4"
+            "version": "1.16.5"
           },
           {
             "name": "io.micrometer:micrometer-core",
-            "version": "1.16.4"
+            "version": "1.16.5"
           },
           {
             "name": "io.micrometer:micrometer-jakarta9",
-            "version": "1.16.4"
+            "version": "1.16.5"
           },
           {
             "name": "io.micrometer:micrometer-observation",
-            "version": "1.16.4"
+            "version": "1.16.5"
           },
           {
             "name": "io.projectreactor:reactor-core",
-            "version": "3.8.4"
+            "version": "3.8.5"
           },
           {
             "name": "io.swagger.core.v3:swagger-annotations-jakarta",
@@ -931,11 +931,11 @@
           },
           {
             "name": "org.apache.logging.log4j:log4j-api",
-            "version": "2.25.3"
+            "version": "2.25.4"
           },
           {
             "name": "org.apache.logging.log4j:log4j-to-slf4j",
-            "version": "2.25.3"
+            "version": "2.25.4"
           },
           {
             "name": "org.apache.tika:tika-core",
@@ -943,15 +943,15 @@
           },
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-core",
-            "version": "11.0.20"
+            "version": "11.0.21"
           },
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-el",
-            "version": "11.0.20"
+            "version": "11.0.21"
           },
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-websocket",
-            "version": "11.0.20"
+            "version": "11.0.21"
           },
           {
             "name": "org.aspectj:aspectjweaver",
@@ -1008,6 +1008,14 @@
           {
             "name": "org.glassfish.jaxb:txw2",
             "version": "4.0.6"
+          },
+          {
+            "name": "org.grimmory:epub4j-core",
+            "version": "1.2.0"
+          },
+          {
+            "name": "org.grimmory:epub4j-native",
+            "version": "1.2.0"
           },
           {
             "name": "org.grimmory:pdfium4j",
@@ -1095,215 +1103,215 @@
           },
           {
             "name": "org.springframework.boot:spring-boot",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-autoconfigure",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-cache",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-configuration-processor",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-data-commons",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-data-jpa",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-flyway",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-health",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-hibernate",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-http-converter",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-jackson",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-jarmode-tools",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-jdbc",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-jpa",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-mail",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-micrometer-metrics",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-micrometer-observation",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-persistence",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-security",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-security-oauth2-client",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-servlet",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-sql",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-tomcat",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-transaction",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-validation",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-web-server",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-webmvc",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.boot:spring-boot-websocket",
-            "version": "4.0.5"
+            "version": "4.0.6"
           },
           {
             "name": "org.springframework.data:spring-data-commons",
-            "version": "4.0.4"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.data:spring-data-jpa",
-            "version": "4.0.4"
+            "version": "4.0.5"
           },
           {
             "name": "org.springframework.security:spring-security-config",
-            "version": "7.0.4"
+            "version": "7.0.5"
           },
           {
             "name": "org.springframework.security:spring-security-core",
-            "version": "7.0.4"
+            "version": "7.0.5"
           },
           {
             "name": "org.springframework.security:spring-security-crypto",
-            "version": "7.0.4"
+            "version": "7.0.5"
           },
           {
             "name": "org.springframework.security:spring-security-oauth2-client",
-            "version": "7.0.4"
+            "version": "7.0.5"
           },
           {
             "name": "org.springframework.security:spring-security-oauth2-core",
-            "version": "7.0.4"
+            "version": "7.0.5"
           },
           {
             "name": "org.springframework.security:spring-security-oauth2-jose",
-            "version": "7.0.4"
+            "version": "7.0.5"
           },
           {
             "name": "org.springframework.security:spring-security-web",
-            "version": "7.0.4"
+            "version": "7.0.5"
           },
           {
             "name": "org.springframework:spring-aop",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-aspects",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-beans",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-context",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-context-support",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-core",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-expression",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-jdbc",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-messaging",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-orm",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-tx",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-web",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-webmvc",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.springframework:spring-websocket",
-            "version": "7.0.6"
+            "version": "7.0.7"
           },
           {
             "name": "org.tukaani:xz",
@@ -1315,15 +1323,15 @@
           },
           {
             "name": "tools.jackson.core:jackson-core",
-            "version": "3.1.0"
+            "version": "3.1.2"
           },
           {
             "name": "tools.jackson.core:jackson-databind",
-            "version": "3.1.0"
+            "version": "3.1.2"
           },
           {
             "name": "tools.jackson.module:jackson-module-blackbird",
-            "version": "3.1.0"
+            "version": "3.1.2"
           },
           {
             "name": "xmlpull:xmlpull",
@@ -1359,13 +1367,13 @@
         "dotnet": 0,
         "freebsd": 158,
         "go": 11,
-        "java": 160,
+        "java": 162,
         "node": 1,
         "php": 0,
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 333
+        "total": 335
       }
     }
   }
