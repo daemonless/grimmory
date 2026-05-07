@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-02T08:09:35Z",
+  "generated": "2026-05-07T13:10:21Z",
   "image": "grimmory",
   "tags": {
     "latest": {
       "app_version": "3.0.3",
       "arch": "amd64",
-      "generated": "2026-05-02T08:08:14Z",
+      "generated": "2026-05-07T13:08:56Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -103,7 +103,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p6"
+            "version": "15.0p8"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -131,7 +131,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0"
+            "version": "15.0p7"
           },
           {
             "name": "Imath",
@@ -223,7 +223,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "graphite2",
