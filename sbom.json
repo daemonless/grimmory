@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-07T13:10:21Z",
+  "generated": "2026-05-15T15:14:08Z",
   "image": "grimmory",
   "tags": {
     "latest": {
-      "app_version": "3.0.3",
+      "app_version": "3.1.0",
       "arch": "amd64",
-      "generated": "2026-05-07T13:08:56Z",
+      "generated": "2026-05-15T15:12:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -179,7 +179,7 @@
           },
           {
             "name": "expat",
-            "version": "2.7.5"
+            "version": "2.8.0"
           },
           {
             "name": "ffmpeg",
@@ -267,7 +267,7 @@
           },
           {
             "name": "kepubify",
-            "version": "4.0.4_38"
+            "version": "4.0.4_39"
           },
           {
             "name": "lame",
@@ -495,7 +495,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.9"
+            "version": "3.4.11"
           },
           {
             "name": "openjdk25-jre-headless",
@@ -685,7 +685,7 @@
           },
           {
             "name": "stdlib",
-            "version": "v1.25.9"
+            "version": "v1.25.10"
           }
         ],
         "java": [
@@ -723,7 +723,7 @@
           },
           {
             "name": "com.github.ben-manes.caffeine:caffeine",
-            "version": "3.2.3"
+            "version": "3.2.4"
           },
           {
             "name": "com.github.gotson.nightcompress:nightcompress",
@@ -743,7 +743,7 @@
           },
           {
             "name": "com.google.errorprone:error_prone_annotations",
-            "version": "2.43.0"
+            "version": "2.49.0"
           },
           {
             "name": "com.nimbusds:nimbus-jose-jwt",
@@ -959,7 +959,7 @@
           },
           {
             "name": "org.flywaydb:flyway-mysql",
-            "version": "12.4.0"
+            "version": "12.6.0"
           },
           {
             "name": "org.freemarker:freemarker",
@@ -971,7 +971,7 @@
           },
           {
             "name": "org.glassfish.jaxb:jaxb-runtime",
-            "version": "4.0.7"
+            "version": "4.0.8"
           },
           {
             "name": "org.glassfish.jaxb:txw2",
@@ -979,15 +979,15 @@
           },
           {
             "name": "org.grimmory:epub4j-core",
-            "version": "1.2.0"
+            "version": "1.4.0"
           },
           {
             "name": "org.grimmory:epub4j-native",
-            "version": "1.2.0"
+            "version": "1.4.0"
           },
           {
             "name": "org.grimmory:pdfium4j",
-            "version": "0.10.0"
+            "version": "1.2.0"
           },
           {
             "name": "org.hdrhistogram:HdrHistogram",
@@ -1003,7 +1003,7 @@
           },
           {
             "name": "org.hibernate:hibernate-core",
-            "version": "7.3.2.Final"
+            "version": "7.3.4.Final"
           },
           {
             "name": "org.jboss.logging:jboss-logging",
@@ -1083,10 +1083,6 @@
           },
           {
             "name": "org.springframework.boot:spring-boot-cache",
-            "version": "4.0.6"
-          },
-          {
-            "name": "org.springframework.boot:spring-boot-configuration-processor",
             "version": "4.0.6"
           },
           {
@@ -1315,13 +1311,13 @@
         "dotnet": 0,
         "freebsd": 158,
         "go": 11,
-        "java": 149,
+        "java": 148,
         "node": 1,
         "php": 0,
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 322
+        "total": 321
       }
     }
   }
