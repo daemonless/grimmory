@@ -5,5 +5,7 @@ cd /app
 
 exec s6-setuidgid bsd \
     /usr/local/bin/java \
+    --enable-native-access=ALL-UNNAMED \
+    --enable-preview \
     ${JAVA_OPTS} \
     -jar /app/app.jar
