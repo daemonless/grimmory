@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-01T10:30:22Z",
+  "generated": "2026-07-13T10:22:41Z",
   "image": "grimmory",
   "tags": {
     "latest": {
       "app_version": "3.2.4",
       "arch": "amd64",
-      "generated": "2026-07-01T10:28:58Z",
+      "generated": "2026-07-13T10:21:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -27,7 +27,7 @@
           },
           {
             "name": "FreeBSD-clibs",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-clibs-lib32",
@@ -107,7 +107,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -119,7 +119,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -127,7 +127,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-zlib",
@@ -143,7 +143,7 @@
           },
           {
             "name": "Imath",
-            "version": "3.2.2_2"
+            "version": "3.2.2_4"
           },
           {
             "name": "alsa-lib",
@@ -151,11 +151,11 @@
           },
           {
             "name": "aom",
-            "version": "3.14.1"
+            "version": "3.14.1_1"
           },
           {
             "name": "bash",
-            "version": "5.3.9"
+            "version": "5.3.15"
           },
           {
             "name": "binutils",
@@ -187,11 +187,11 @@
           },
           {
             "name": "expat",
-            "version": "2.8.1"
+            "version": "2.8.2"
           },
           {
             "name": "ffmpeg",
-            "version": "8.1,1"
+            "version": "8.1.2_1,1"
           },
           {
             "name": "fontconfig",
@@ -207,7 +207,7 @@
           },
           {
             "name": "gcc14",
-            "version": "14.2.0_4"
+            "version": "14.2.0_6"
           },
           {
             "name": "gdk-pixbuf2",
@@ -215,7 +215,7 @@
           },
           {
             "name": "gettext-runtime",
-            "version": "1.0"
+            "version": "1.0_1"
           },
           {
             "name": "giflib",
@@ -223,7 +223,7 @@
           },
           {
             "name": "glib",
-            "version": "2.84.4,2"
+            "version": "2.86.4,2"
           },
           {
             "name": "gmp",
@@ -235,19 +235,19 @@
           },
           {
             "name": "graphite2",
-            "version": "1.3.14"
+            "version": "1.3.15"
           },
           {
             "name": "harfbuzz",
-            "version": "13.2.1"
+            "version": "14.2.1"
           },
           {
             "name": "highway",
-            "version": "1.3.0"
+            "version": "1.4.0"
           },
           {
             "name": "hwdata",
-            "version": "0.405,1"
+            "version": "0.409,1"
           },
           {
             "name": "icu",
@@ -259,7 +259,7 @@
           },
           {
             "name": "javavmwrapper",
-            "version": "2.7.10_1"
+            "version": "2.7.10_2"
           },
           {
             "name": "jbigkit",
@@ -275,7 +275,7 @@
           },
           {
             "name": "kepubify",
-            "version": "4.0.4_40"
+            "version": "4.0.4_41"
           },
           {
             "name": "lame",
@@ -283,11 +283,11 @@
           },
           {
             "name": "lcms2",
-            "version": "2.19"
+            "version": "2.19.1"
           },
           {
             "name": "lerc",
-            "version": "4.0.0"
+            "version": "4.1.0"
           },
           {
             "name": "libICE",
@@ -299,7 +299,7 @@
           },
           {
             "name": "libX11",
-            "version": "1.8.13,1"
+            "version": "1.8.13_1,1"
           },
           {
             "name": "libXau",
@@ -311,7 +311,7 @@
           },
           {
             "name": "libXext",
-            "version": "1.3.6,1"
+            "version": "1.3.7,1"
           },
           {
             "name": "libXfixes",
@@ -323,11 +323,11 @@
           },
           {
             "name": "libXi",
-            "version": "1.8.2,1"
+            "version": "1.8.3,1"
           },
           {
             "name": "libXrandr",
-            "version": "1.5.4"
+            "version": "1.5.5"
           },
           {
             "name": "libXrender",
@@ -335,7 +335,7 @@
           },
           {
             "name": "libXt",
-            "version": "1.3.0,1"
+            "version": "1.3.1,1"
           },
           {
             "name": "libXtst",
@@ -347,7 +347,7 @@
           },
           {
             "name": "libass",
-            "version": "0.17.4"
+            "version": "0.17.5"
           },
           {
             "name": "libbluray",
@@ -363,7 +363,7 @@
           },
           {
             "name": "libdrm",
-            "version": "2.4.131,1"
+            "version": "2.4.133,1"
           },
           {
             "name": "libdvdnav",
@@ -379,7 +379,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.5.1"
+            "version": "3.6.0"
           },
           {
             "name": "libglvnd",
@@ -395,7 +395,11 @@
           },
           {
             "name": "libjxl",
-            "version": "0.11.2"
+            "version": "0.12.0"
+          },
+          {
+            "name": "liblz4",
+            "version": "1.10.0_2,1"
           },
           {
             "name": "libogg",
@@ -403,7 +407,7 @@
           },
           {
             "name": "libpciaccess",
-            "version": "0.18.1_1"
+            "version": "0.19"
           },
           {
             "name": "libplacebo",
@@ -411,7 +415,7 @@
           },
           {
             "name": "librsvg2-rust",
-            "version": "2.62.0_1"
+            "version": "2.62.3"
           },
           {
             "name": "libtasn1",
@@ -431,7 +435,7 @@
           },
           {
             "name": "libunibreak",
-            "version": "6.1,1"
+            "version": "7.0,1"
           },
           {
             "name": "libunistring",
@@ -447,7 +451,7 @@
           },
           {
             "name": "libva",
-            "version": "2.23.0"
+            "version": "2.24.1"
           },
           {
             "name": "libvdpau",
@@ -471,15 +475,15 @@
           },
           {
             "name": "libxml2",
-            "version": "2.15.2"
+            "version": "2.15.3"
           },
           {
             "name": "lzo2",
-            "version": "2.10_1"
+            "version": "2.10_2"
           },
           {
             "name": "mpc",
-            "version": "1.4.0"
+            "version": "1.4.1"
           },
           {
             "name": "mpdecimal",
@@ -499,19 +503,19 @@
           },
           {
             "name": "openblas",
-            "version": "0.3.30,2"
+            "version": "0.3.33,2"
           },
           {
             "name": "openexr",
-            "version": "3.4.13"
+            "version": "3.4.13_1"
           },
           {
             "name": "openjdk25-jre-headless",
-            "version": "25.0.2+10.f.1_2"
+            "version": "25.0.3+9.f.1"
           },
           {
             "name": "openjph",
-            "version": "0.26.3"
+            "version": "0.30.1"
           },
           {
             "name": "opus",
@@ -523,7 +527,7 @@
           },
           {
             "name": "pango",
-            "version": "1.56.4_1"
+            "version": "1.57.1"
           },
           {
             "name": "pcre2",
@@ -531,31 +535,31 @@
           },
           {
             "name": "pixman",
-            "version": "0.46.2"
+            "version": "0.46.4"
           },
           {
             "name": "pkg",
-            "version": "2.6.2_1"
+            "version": "2.7.5"
           },
           {
             "name": "png",
-            "version": "1.6.57"
+            "version": "1.6.58"
           },
           {
-            "name": "py311-boost-libs",
+            "name": "py312-boost-libs",
             "version": "1.89.0"
           },
           {
-            "name": "py311-numpy",
-            "version": "1.26.4_12,1"
+            "name": "py312-numpy",
+            "version": "2.4.6_1,1"
           },
           {
-            "name": "py311-packaging",
-            "version": "26.0"
+            "name": "py312-packaging",
+            "version": "26.2"
           },
           {
-            "name": "python311",
-            "version": "3.11.15_4"
+            "name": "python312",
+            "version": "3.12.13_3"
           },
           {
             "name": "readline",
@@ -567,7 +571,7 @@
           },
           {
             "name": "shaderc",
-            "version": "2026.1"
+            "version": "2026.2_1"
           },
           {
             "name": "shared-mime-info",
@@ -579,35 +583,7 @@
           },
           {
             "name": "srt",
-            "version": "1.5.4"
-          },
-          {
-            "name": "suitesparse-amd",
-            "version": "3.3.4"
-          },
-          {
-            "name": "suitesparse-camd",
-            "version": "3.3.5"
-          },
-          {
-            "name": "suitesparse-ccolamd",
-            "version": "3.3.5"
-          },
-          {
-            "name": "suitesparse-cholmod",
-            "version": "5.3.4"
-          },
-          {
-            "name": "suitesparse-colamd",
-            "version": "3.3.5"
-          },
-          {
-            "name": "suitesparse-config",
-            "version": "7.12.2"
-          },
-          {
-            "name": "suitesparse-umfpack",
-            "version": "6.3.7"
+            "version": "1.5.5"
           },
           {
             "name": "svt-av1",
@@ -619,15 +595,15 @@
           },
           {
             "name": "vmaf",
-            "version": "3.0.0"
+            "version": "3.2.0"
           },
           {
             "name": "vulkan-loader",
-            "version": "1.4.336"
+            "version": "1.4.356"
           },
           {
             "name": "wayland",
-            "version": "1.24.0_2"
+            "version": "1.25.0"
           },
           {
             "name": "webp",
@@ -639,7 +615,7 @@
           },
           {
             "name": "xorgproto",
-            "version": "2024.1"
+            "version": "2025.1"
           },
           {
             "name": "xxhash",
@@ -647,7 +623,7 @@
           },
           {
             "name": "zstd",
-            "version": "1.5.7_1"
+            "version": "1.5.7_2"
           }
         ],
         "go": [
@@ -693,7 +669,7 @@
           },
           {
             "name": "stdlib",
-            "version": "v1.25.11"
+            "version": "v1.25.12"
           }
         ],
         "java": [
@@ -1288,8 +1264,48 @@
         ],
         "node": [
           {
+            "name": "@jupyterlite/app",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-consoles",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-edit",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-lab",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-notebooks",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-repl",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-tree",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/pyodide-kernel-extension",
+            "version": "0.5.2"
+          },
+          {
             "name": "MathJax-grunt-cleaner",
             "version": "0.1.0"
+          },
+          {
+            "name": "jupyterlab-jupytext",
+            "version": "1.4.5"
+          },
+          {
+            "name": "jupyterlab_pygments",
+            "version": "0.3.0"
           }
         ],
         "php": [],
@@ -1300,11 +1316,11 @@
           },
           {
             "name": "numpy",
-            "version": "1.26.4"
+            "version": "2.4.6"
           },
           {
             "name": "packaging",
-            "version": "26.0"
+            "version": "26.2"
           }
         ],
         "ruby": [],
@@ -1313,15 +1329,15 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 160,
+        "freebsd": 154,
         "go": 11,
         "java": 147,
-        "node": 1,
+        "node": 11,
         "php": 0,
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 322
+        "total": 326
       }
     }
   }
