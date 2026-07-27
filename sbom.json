@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-13T10:22:41Z",
+  "generated": "2026-07-27T22:11:43Z",
   "image": "grimmory",
   "tags": {
     "latest": {
       "app_version": "3.2.4",
       "arch": "amd64",
-      "generated": "2026-07-13T10:21:18Z",
+      "generated": "2026-07-27T22:07:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -75,6 +75,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
@@ -171,7 +175,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "cairo",
@@ -271,7 +275,7 @@
           },
           {
             "name": "jq",
-            "version": "1.8.1"
+            "version": "1.8.2"
           },
           {
             "name": "kepubify",
@@ -1329,7 +1333,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 154,
+        "freebsd": 155,
         "go": 11,
         "java": 147,
         "node": 11,
@@ -1337,7 +1341,7 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 326
+        "total": 327
       }
     }
   }
