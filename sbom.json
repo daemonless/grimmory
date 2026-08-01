@@ -1,631 +1,1120 @@
 {
-  "generated": "2026-07-27T22:11:43Z",
+  "generated": "2026-08-01T20:16:37Z",
   "image": "grimmory",
   "tags": {
     "latest": {
       "app_version": "3.2.4",
       "arch": "amd64",
-      "generated": "2026-07-27T22:07:36Z",
+      "generated": "2026-08-01T19:57:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-audit-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-blocklist",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-bzip2-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-certctl",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-clibs",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-ctf-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-devmatch",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-fetch",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-kerberos-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libarchive",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libbsdstat",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libcasper",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libexecinfo",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libldns",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libmagic",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libucl",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-mtree",
-            "version": "15.1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ncurses-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-pam-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-pkg-bootstrap",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-rc",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-tcpd",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ufs-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-utilities",
-            "version": "15.1p1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-xz-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-zfs-lib",
             "version": "15.1p1"
           },
           {
+            "licenses": [
+              "Zlib"
+            ],
             "name": "FreeBSD-zlib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-zstd-lib",
             "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "Imath",
             "version": "3.2.2_4"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "alsa-lib",
             "version": "1.2.15.3"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "aom",
             "version": "3.14.1_1"
           },
           {
+            "licenses": [
+              "GPLv3+"
+            ],
             "name": "bash",
             "version": "5.3.15"
           },
           {
+            "licenses": [
+              "LGPL3",
+              "GPLv3"
+            ],
             "name": "binutils",
             "version": "2.44,1"
           },
           {
+            "licenses": [
+              "BSL"
+            ],
             "name": "boost-libs",
             "version": "1.89.0_2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "brotli",
             "version": "1.2.0,1"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "ca_root_nss",
             "version": "3.125"
           },
           {
+            "licenses": [
+              "LGPL21",
+              "MPL11"
+            ],
             "name": "cairo",
             "version": "1.18.2,3"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "dav1d",
             "version": "1.5.3_1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "execline",
             "version": "2.9.8.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "expat",
             "version": "2.8.2"
           },
           {
+            "licenses": [
+              "GPLv3+",
+              "LGPL3+"
+            ],
             "name": "ffmpeg",
             "version": "8.1.2_1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "fontconfig",
             "version": "2.17.1,1"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "FTL"
+            ],
             "name": "freetype2",
             "version": "2.14.3"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "fribidi",
             "version": "1.0.16"
           },
           {
+            "licenses": [
+              "GPLv3",
+              "GPLv3RLE"
+            ],
             "name": "gcc14",
             "version": "14.2.0_6"
           },
           {
+            "licenses": [
+              "LGPL20+"
+            ],
             "name": "gdk-pixbuf2",
             "version": "2.44.1"
           },
           {
+            "licenses": [
+              "LGPL21+",
+              "GPLv3+"
+            ],
             "name": "gettext-runtime",
             "version": "1.0_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "giflib",
             "version": "5.2.2"
           },
           {
+            "licenses": [
+              "LGPL20"
+            ],
             "name": "glib",
             "version": "2.86.4,2"
           },
           {
+            "licenses": [
+              "LGPL3"
+            ],
             "name": "gmp",
             "version": "6.3.0"
           },
           {
+            "licenses": [
+              "LGPL21+",
+              "GPLv3+"
+            ],
             "name": "gnutls",
             "version": "3.8.13"
           },
           {
+            "licenses": [
+              "MPL20",
+              "LGPL21",
+              "GPLv2"
+            ],
             "name": "graphite2",
             "version": "1.3.15"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "harfbuzz",
             "version": "14.2.1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "highway",
             "version": "1.4.0"
           },
           {
+            "licenses": [
+              "MIT",
+              "GPLv2+"
+            ],
             "name": "hwdata",
             "version": "0.409,1"
           },
           {
+            "licenses": [
+              "ICU"
+            ],
             "name": "icu",
             "version": "76.1,1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "indexinfo",
             "version": "0.3.1_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "BEERWARE"
+            ],
             "name": "javavmwrapper",
             "version": "2.7.10_2"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "jbigkit",
             "version": "2.1_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE",
+              "IJG",
+              "ZLIB"
+            ],
             "name": "jpeg-turbo",
             "version": "3.1.4.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "jq",
             "version": "1.8.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "kepubify",
             "version": "4.0.4_41"
           },
           {
+            "licenses": [
+              "LGPL20+"
+            ],
             "name": "lame",
             "version": "3.100_5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "lcms2",
             "version": "2.19.1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "lerc",
             "version": "4.1.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libICE",
             "version": "1.1.2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libSM",
             "version": "1.2.6,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libX11",
             "version": "1.8.13_1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXau",
             "version": "1.0.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXdmcp",
             "version": "1.1.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXext",
             "version": "1.3.7,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXfixes",
             "version": "6.0.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXft",
             "version": "2.3.8"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXi",
             "version": "1.8.3,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrandr",
             "version": "1.5.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrender",
             "version": "0.9.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXt",
             "version": "1.3.1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXtst",
             "version": "1.2.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXv",
             "version": "1.0.13,1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "libass",
             "version": "0.17.5"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libbluray",
             "version": "1.4.1,1"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libdatrie",
             "version": "0.2.14_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdeflate",
             "version": "1.25"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdrm",
             "version": "2.4.133,1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "libdvdnav",
             "version": "7.0.0"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "libdvdread",
             "version": "7.0.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libepoll-shim",
             "version": "0.0.20240608"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libffi",
             "version": "3.6.0"
           },
           {
+            "licenses": [
+              "MIT",
+              "APACHE20"
+            ],
             "name": "libglvnd",
             "version": "1.7.0"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "libiconv",
             "version": "1.18_1"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "libidn2",
             "version": "2.3.8"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libjxl",
             "version": "0.12.0"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "GPLv2"
+            ],
             "name": "liblz4",
             "version": "1.10.0_2,1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libogg",
             "version": "1.3.6,4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libpciaccess",
             "version": "0.19"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libplacebo",
             "version": "7.360.1"
           },
           {
+            "licenses": [
+              "LGPL20"
+            ],
             "name": "librsvg2-rust",
             "version": "2.62.3"
           },
           {
+            "licenses": [
+              "LGPL21+",
+              "GPLv3"
+            ],
             "name": "libtasn1",
             "version": "4.21.0"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libthai",
             "version": "0.1.30"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libudev-devd",
             "version": "0.6.0"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libudfread",
             "version": "1.2.0"
           },
           {
+            "licenses": [
+              "ZLIB"
+            ],
             "name": "libunibreak",
             "version": "7.0,1"
           },
           {
+            "licenses": [
+              "GPLv2",
+              "GFDL",
+              "LGPL3+"
+            ],
             "name": "libunistring",
             "version": "1.4.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libunwind",
             "version": "20250904"
           },
           {
+            "licenses": [
+              "LGPL21",
+              "GPLv2"
+            ],
             "name": "libv4l",
             "version": "1.23.0_5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libva",
             "version": "2.24.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libvdpau",
             "version": "1.5"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libvorbis",
             "version": "1.3.7_2,3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libvpx",
             "version": "1.16.0"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "libx264",
             "version": "0.164.3095"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxcb",
             "version": "1.17.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxml2",
             "version": "2.15.3"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "lzo2",
             "version": "2.10_2"
           },
           {
+            "licenses": [
+              "LGPL3+"
+            ],
             "name": "mpc",
             "version": "1.4.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "mpdecimal",
             "version": "4.0.1"
           },
           {
+            "licenses": [
+              "LGPL3+"
+            ],
             "name": "mpfr",
             "version": "4.2.2,1"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "LGPL3"
+            ],
             "name": "nettle",
             "version": "3.10.2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "oniguruma",
             "version": "6.9.10"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "openblas",
             "version": "0.3.33,2"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "openexr",
             "version": "3.4.13_1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "openjdk25-jre-headless",
             "version": "25.0.3+9.f.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "openjph",
             "version": "0.30.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "opus",
             "version": "1.6.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "p11-kit",
             "version": "0.26.2"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "pango",
             "version": "1.57.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "pcre2",
             "version": "10.47_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "pixman",
             "version": "0.46.4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "pkg",
             "version": "2.7.5"
           },
           {
+            "licenses": [
+              "Libpng"
+            ],
             "name": "png",
             "version": "1.6.58"
           },
           {
+            "licenses": [
+              "BSL"
+            ],
             "name": "py312-boost-libs",
             "version": "1.89.0"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "py312-numpy",
             "version": "2.4.6_1,1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "APACHE20"
+            ],
             "name": "py312-packaging",
             "version": "26.2"
           },
           {
+            "licenses": [
+              "PSFL"
+            ],
             "name": "python312",
             "version": "3.12.13_3"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "readline",
             "version": "8.3.3"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "s6",
             "version": "2.14.0.1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "shaderc",
             "version": "2026.2_1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "shared-mime-info",
             "version": "2.4_2"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "skalibs",
             "version": "2.14.5.1"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "srt",
             "version": "1.5.5"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "MIT",
+              "BSD3CLAUSE"
+            ],
             "name": "svt-av1",
             "version": "4.1.0"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "tiff",
             "version": "4.7.1_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE+PATENT"
+            ],
             "name": "vmaf",
             "version": "3.2.0"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "vulkan-loader",
             "version": "1.4.356"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "wayland",
             "version": "1.25.0"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "webp",
             "version": "1.6.0"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "x265",
             "version": "4.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "xorgproto",
             "version": "2025.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "xxhash",
             "version": "0.8.3"
           },
           {
+            "licenses": [
+              "GPLv2",
+              "BSD3CLAUSE"
+            ],
             "name": "zstd",
             "version": "1.5.7_2"
           }
@@ -633,682 +1122,851 @@
         "go": [
           {
             "name": "github.com/bamiaux/rez",
+            "purl": "",
             "version": "v0.0.0-20170731184118-29f4463c688b"
           },
           {
             "name": "github.com/beevik/etree",
+            "purl": "",
             "version": "v1.1.0"
           },
           {
             "name": "github.com/kr/smartypants",
+            "purl": "",
             "version": "v0.1.0"
           },
           {
             "name": "github.com/mattn/go-sqlite3",
+            "purl": "",
             "version": "v1.14.12"
           },
           {
             "name": "github.com/pgaskin/kepubify/_/html",
+            "purl": "",
             "version": "v0.0.0-20211223234002-6ee2cc632cdc"
           },
           {
             "name": "github.com/pgaskin/kepubify/v4",
+            "purl": "",
             "version": ""
           },
           {
             "name": "github.com/pgaskin/koboutils/v2",
+            "purl": "",
             "version": "v2.1.2-0.20220306004009-a07e72ebae42"
           },
           {
             "name": "github.com/spf13/pflag",
+            "purl": "",
             "version": "v1.0.5"
           },
           {
             "name": "golang.org/x/sync",
+            "purl": "",
             "version": "v0.0.0-20210220032951-036812b2e83c"
           },
           {
             "name": "golang.org/x/text",
+            "purl": "",
             "version": "v0.3.6"
           },
           {
             "name": "stdlib",
+            "purl": "",
             "version": "v1.25.12"
           }
         ],
         "java": [
           {
             "name": "ch.qos.logback:logback-classic",
+            "purl": "",
             "version": "1.5.34"
           },
           {
             "name": "ch.qos.logback:logback-core",
+            "purl": "",
             "version": "1.5.34"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-annotations",
+            "purl": "",
             "version": "2.21"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-core",
+            "purl": "",
             "version": "2.21.4"
           },
           {
             "name": "com.fasterxml.jackson.core:jackson-databind",
+            "purl": "",
             "version": "2.21.4"
           },
           {
             "name": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
+            "purl": "",
             "version": "2.21.4"
           },
           {
             "name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+            "purl": "",
             "version": "2.21.4"
           },
           {
             "name": "com.fasterxml:classmate",
+            "purl": "",
             "version": "1.7.3"
           },
           {
             "name": "com.github.ben-manes.caffeine:caffeine",
+            "purl": "",
             "version": "3.2.4"
           },
           {
             "name": "com.github.gotson.nightcompress:nightcompress",
+            "purl": "",
             "version": "1.1.1"
           },
           {
             "name": "com.github.stephenc.jcip:jcip-annotations",
+            "purl": "",
             "version": "1.0-1"
           },
           {
             "name": "com.google.code.findbugs:jsr305",
+            "purl": "",
             "version": "3.0.2"
           },
           {
             "name": "com.google.code.gson:gson",
+            "purl": "",
             "version": "2.13.1"
           },
           {
             "name": "com.google.errorprone:error_prone_annotations",
+            "purl": "",
             "version": "2.49.0"
           },
           {
             "name": "com.neovisionaries:nv-i18n",
+            "purl": "",
             "version": "1.29"
           },
           {
             "name": "com.nimbusds:nimbus-jose-jwt",
+            "purl": "",
             "version": "10.9.1"
           },
           {
             "name": "com.squareup.okio:okio-jvm",
+            "purl": "",
             "version": "3.17.0"
           },
           {
             "name": "com.sun.istack:istack-commons-runtime",
+            "purl": "",
             "version": "4.1.2"
           },
           {
             "name": "com.twelvemonkeys.common:common-image",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.common:common-io",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.common:common-lang",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-bmp",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-core",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-jpeg",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-metadata",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-tiff",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.twelvemonkeys.imageio:imageio-webp",
+            "purl": "",
             "version": "3.13.1"
           },
           {
             "name": "com.zaxxer:HikariCP",
+            "purl": "",
             "version": "7.0.2"
           },
           {
             "name": "commons-codec:commons-codec",
+            "purl": "",
             "version": "1.21.0"
           },
           {
             "name": "commons-io:commons-io",
+            "purl": "",
             "version": "2.22.0"
           },
           {
             "name": "commons-logging:commons-logging",
+            "purl": "",
             "version": "1.3.6"
           },
           {
             "name": "io.micrometer:micrometer-commons",
+            "purl": "",
             "version": "1.17.0"
           },
           {
             "name": "io.micrometer:micrometer-core",
+            "purl": "",
             "version": "1.17.0"
           },
           {
             "name": "io.micrometer:micrometer-jakarta9",
+            "purl": "",
             "version": "1.17.0"
           },
           {
             "name": "io.micrometer:micrometer-observation",
+            "purl": "",
             "version": "1.17.0"
           },
           {
             "name": "io.projectreactor:reactor-core",
+            "purl": "",
             "version": "3.8.6"
           },
           {
             "name": "io.swagger.core.v3:swagger-annotations-jakarta",
+            "purl": "",
             "version": "2.2.47"
           },
           {
             "name": "io.swagger.core.v3:swagger-core-jakarta",
+            "purl": "",
             "version": "2.2.47"
           },
           {
             "name": "io.swagger.core.v3:swagger-models-jakarta",
+            "purl": "",
             "version": "2.2.47"
           },
           {
             "name": "jakarta.activation:jakarta.activation-api",
+            "purl": "",
             "version": "2.1.4"
           },
           {
             "name": "jakarta.annotation:jakarta.annotation-api",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "jakarta.inject:jakarta.inject-api",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "jakarta.mail:jakarta.mail-api",
+            "purl": "",
             "version": "2.1.5"
           },
           {
             "name": "jakarta.persistence:jakarta.persistence-api",
+            "purl": "",
             "version": "3.2.0"
           },
           {
             "name": "jakarta.transaction:jakarta.transaction-api",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "jakarta.validation:jakarta.validation-api",
+            "purl": "",
             "version": "3.1.1"
           },
           {
             "name": "jakarta.xml.bind:jakarta.xml.bind-api",
+            "purl": "",
             "version": "4.0.5"
           },
           {
             "name": "net.bytebuddy:byte-buddy",
+            "purl": "",
             "version": "1.18.10"
           },
           {
             "name": "net.jthink:jaudiotagger",
+            "purl": "",
             "version": "2.3.15"
           },
           {
             "name": "org.antlr:antlr4-runtime",
+            "purl": "",
             "version": "4.13.2"
           },
           {
             "name": "org.apache.commons:commons-compress",
+            "purl": "",
             "version": "1.28.0"
           },
           {
             "name": "org.apache.commons:commons-lang3",
+            "purl": "",
             "version": "3.20.0"
           },
           {
             "name": "org.apache.commons:commons-text",
+            "purl": "",
             "version": "1.15.0"
           },
           {
             "name": "org.apache.logging.log4j:log4j-api",
+            "purl": "",
             "version": "2.25.4"
           },
           {
             "name": "org.apache.logging.log4j:log4j-to-slf4j",
+            "purl": "",
             "version": "2.25.4"
           },
           {
             "name": "org.apache.tika:tika-core",
+            "purl": "",
             "version": "3.3.1"
           },
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-core",
+            "purl": "",
             "version": "11.0.22"
           },
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-el",
+            "purl": "",
             "version": "11.0.22"
           },
           {
             "name": "org.apache.tomcat.embed:tomcat-embed-websocket",
+            "purl": "",
             "version": "11.0.22"
           },
           {
             "name": "org.aspectj:aspectjweaver",
+            "purl": "",
             "version": "1.9.25.1"
           },
           {
             "name": "org.eclipse.angus:angus-activation",
+            "purl": "",
             "version": "2.0.3"
           },
           {
             "name": "org.eclipse.angus:angus-core",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:angus-mail",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:imap",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:logging-mailhandler",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:pop3",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.eclipse.angus:smtp",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "org.flywaydb:flyway-core",
+            "purl": "",
             "version": "12.4.0"
           },
           {
             "name": "org.flywaydb:flyway-mysql",
+            "purl": "",
             "version": "12.9.0"
           },
           {
             "name": "org.freemarker:freemarker",
+            "purl": "",
             "version": "2.3.34"
           },
           {
             "name": "org.glassfish.jaxb:jaxb-core",
+            "purl": "",
             "version": "4.0.9"
           },
           {
             "name": "org.glassfish.jaxb:jaxb-runtime",
+            "purl": "",
             "version": "4.0.9"
           },
           {
             "name": "org.glassfish.jaxb:txw2",
+            "purl": "",
             "version": "4.0.9"
           },
           {
             "name": "org.grimmory:epub4j-core",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "org.grimmory:epub4j-native",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "org.grimmory:pdfium4j",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "org.hdrhistogram:HdrHistogram",
+            "purl": "",
             "version": "2.2.2"
           },
           {
             "name": "org.hibernate.models:hibernate-models",
+            "purl": "",
             "version": "1.1.0"
           },
           {
             "name": "org.hibernate.validator:hibernate-validator",
+            "purl": "",
             "version": "9.1.0.Final"
           },
           {
             "name": "org.hibernate:hibernate-core",
+            "purl": "",
             "version": "7.4.1.Final"
           },
           {
             "name": "org.jboss.logging:jboss-logging",
+            "purl": "",
             "version": "3.6.3.Final"
           },
           {
             "name": "org.jetbrains.kotlin:kotlin-stdlib",
+            "purl": "",
             "version": "2.3.21"
           },
           {
             "name": "org.jetbrains:annotations",
+            "purl": "",
             "version": "13.0"
           },
           {
             "name": "org.json:json",
+            "purl": "",
             "version": "20250517"
           },
           {
             "name": "org.jsoup:jsoup",
+            "purl": "",
             "version": "1.22.2"
           },
           {
             "name": "org.jspecify:jspecify",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "org.mapstruct:mapstruct",
+            "purl": "",
             "version": "1.6.3"
           },
           {
             "name": "org.mariadb.jdbc:mariadb-java-client",
+            "purl": "",
             "version": "3.5.9"
           },
           {
             "name": "org.reactivestreams:reactive-streams",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "org.robolectric:android-kxml2",
+            "purl": "",
             "version": "4.1.2_r1_rc"
           },
           {
             "name": "org.slf4j:jul-to-slf4j",
+            "purl": "",
             "version": "2.0.18"
           },
           {
             "name": "org.slf4j:slf4j-api",
+            "purl": "",
             "version": "2.0.18"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-common",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-webmvc-api",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "org.springframework.boot:spring-boot",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-autoconfigure",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-cache",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-data-commons",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-data-jpa",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-flyway",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-health",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-hibernate",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-http-converter",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-jackson",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-jarmode-tools",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-jdbc",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-jpa",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-mail",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-micrometer-metrics",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-micrometer-observation",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-persistence",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-security",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-servlet",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-sql",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-tomcat",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-transaction",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-validation",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-web-server",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-webmvc",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot-websocket",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.data:spring-data-commons",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.data:spring-data-jpa",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "org.springframework.security:spring-security-config",
+            "purl": "",
             "version": "7.1.0"
           },
           {
             "name": "org.springframework.security:spring-security-core",
+            "purl": "",
             "version": "7.1.0"
           },
           {
             "name": "org.springframework.security:spring-security-crypto",
+            "purl": "",
             "version": "7.1.0"
           },
           {
             "name": "org.springframework.security:spring-security-web",
+            "purl": "",
             "version": "7.1.0"
           },
           {
             "name": "org.springframework:spring-aop",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-aspects",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-beans",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-context",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-context-support",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-core",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-expression",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-jdbc",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-messaging",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-orm",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-tx",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-web",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-webmvc",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.springframework:spring-websocket",
+            "purl": "",
             "version": "7.0.8"
           },
           {
             "name": "org.tukaani:xz",
+            "purl": "",
             "version": "1.12"
           },
           {
             "name": "org.yaml:snakeyaml",
+            "purl": "",
             "version": "2.6"
           },
           {
             "name": "tools.jackson.core:jackson-core",
+            "purl": "",
             "version": "3.1.4"
           },
           {
             "name": "tools.jackson.core:jackson-databind",
+            "purl": "",
             "version": "3.1.4"
           },
           {
             "name": "xmlpull:xmlpull",
+            "purl": "",
             "version": "1.1.3.4d_b4_min"
           }
         ],
         "node": [
           {
             "name": "@jupyterlite/app",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-consoles",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-edit",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-lab",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-notebooks",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-repl",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-tree",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/pyodide-kernel-extension",
+            "purl": "",
             "version": "0.5.2"
           },
           {
             "name": "MathJax-grunt-cleaner",
+            "purl": "",
             "version": "0.1.0"
           },
           {
             "name": "jupyterlab-jupytext",
+            "purl": "",
             "version": "1.4.5"
           },
           {
             "name": "jupyterlab_pygments",
+            "purl": "",
             "version": "0.3.0"
           }
         ],
@@ -1316,14 +1974,17 @@
         "python": [
           {
             "name": "example",
+            "purl": "",
             "version": "21.12"
           },
           {
             "name": "numpy",
+            "purl": "",
             "version": "2.4.6"
           },
           {
             "name": "packaging",
+            "purl": "",
             "version": "26.2"
           }
         ],
