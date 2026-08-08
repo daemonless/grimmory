@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-07T08:32:58Z",
+  "generated": "2026-08-08T19:38:15Z",
   "image": "grimmory",
   "tags": {
     "latest": {
-      "app_version": "3.3.0",
+      "app_version": "3.3.1",
       "arch": "amd64",
-      "generated": "2026-08-07T08:30:12Z",
+      "generated": "2026-08-08T19:35:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1225,7 +1225,7 @@
           {
             "name": "com.github.junrar:junrar",
             "purl": "",
-            "version": "8.0.0"
+            "version": "8.1.0"
           },
           {
             "name": "com.github.stephenc.jcip:jcip-annotations",
@@ -1355,17 +1355,17 @@
           {
             "name": "io.swagger.core.v3:swagger-annotations-jakarta",
             "purl": "",
-            "version": "2.2.47"
+            "version": "2.2.52"
           },
           {
             "name": "io.swagger.core.v3:swagger-core-jakarta",
             "purl": "",
-            "version": "2.2.47"
+            "version": "2.2.52"
           },
           {
             "name": "io.swagger.core.v3:swagger-models-jakarta",
             "purl": "",
-            "version": "2.2.47"
+            "version": "2.2.52"
           },
           {
             "name": "jakarta.activation:jakarta.activation-api",
@@ -1515,7 +1515,7 @@
           {
             "name": "org.flywaydb:flyway-mysql",
             "purl": "",
-            "version": "13.0.0"
+            "version": "13.1.0"
           },
           {
             "name": "org.freemarker:freemarker",
@@ -1595,7 +1595,7 @@
           {
             "name": "org.jsoup:jsoup",
             "purl": "",
-            "version": "1.22.2"
+            "version": "1.23.1"
           },
           {
             "name": "org.jspecify:jspecify",
@@ -1610,7 +1610,7 @@
           {
             "name": "org.mariadb.jdbc:mariadb-java-client",
             "purl": "",
-            "version": "3.5.9"
+            "version": "3.5.10"
           },
           {
             "name": "org.reactivestreams:reactive-streams",
@@ -1635,12 +1635,12 @@
           {
             "name": "org.springdoc:springdoc-openapi-starter-common",
             "purl": "",
-            "version": "3.0.3"
+            "version": "3.1.0"
           },
           {
             "name": "org.springdoc:springdoc-openapi-starter-webmvc-api",
             "purl": "",
-            "version": "3.0.3"
+            "version": "3.1.0"
           },
           {
             "name": "org.springframework.boot:spring-boot",
