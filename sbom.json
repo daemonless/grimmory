@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-08T19:38:15Z",
+  "generated": "2026-08-16T17:46:37Z",
   "image": "grimmory",
   "tags": {
     "latest": {
       "app_version": "3.3.1",
       "arch": "amd64",
-      "generated": "2026-08-08T19:35:24Z",
+      "generated": "2026-08-16T17:44:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1001,7 +1001,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_3"
+            "version": "3.12.13_4"
           },
           {
             "licenses": [
