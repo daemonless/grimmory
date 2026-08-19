@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-16T17:46:37Z",
+  "generated": "2026-08-19T18:45:33Z",
   "image": "grimmory",
   "tags": {
     "latest": {
-      "app_version": "3.3.1",
+      "app_version": "3.3.2",
       "arch": "amd64",
-      "generated": "2026-08-16T17:44:32Z",
+      "generated": "2026-08-19T18:34:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -496,7 +496,7 @@
               "MIT"
             ],
             "name": "kepubify",
-            "version": "4.0.4_41"
+            "version": "4.0.4_42"
           },
           {
             "licenses": [
@@ -909,7 +909,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.13_1"
+            "version": "3.4.14"
           },
           {
             "licenses": [
@@ -1173,7 +1173,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.25.12"
+            "version": "v1.25.13"
           }
         ],
         "java": [
@@ -1515,7 +1515,7 @@
           {
             "name": "org.flywaydb:flyway-mysql",
             "purl": "",
-            "version": "13.1.0"
+            "version": "13.2.0"
           },
           {
             "name": "org.freemarker:freemarker",
@@ -1689,6 +1689,11 @@
           },
           {
             "name": "org.springframework.boot:spring-boot-hibernate",
+            "purl": "",
+            "version": "4.1.0"
+          },
+          {
+            "name": "org.springframework.boot:spring-boot-http-client",
             "purl": "",
             "version": "4.1.0"
           },
@@ -1991,13 +1996,13 @@
         "dotnet": 0,
         "freebsd": 155,
         "go": 11,
-        "java": 146,
+        "java": 147,
         "node": 11,
         "php": 0,
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 326
+        "total": 327
       }
     }
   }
