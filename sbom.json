@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-19T18:45:33Z",
+  "generated": "2026-08-22T07:10:28Z",
   "image": "grimmory",
   "tags": {
     "latest": {
-      "app_version": "3.3.2",
+      "app_version": "3.3.3",
       "arch": "amd64",
-      "generated": "2026-08-19T18:34:27Z",
+      "generated": "2026-08-22T07:08:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -302,7 +302,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -1001,7 +1001,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -1515,7 +1515,7 @@
           {
             "name": "org.flywaydb:flyway-mysql",
             "purl": "",
-            "version": "13.2.0"
+            "version": "13.3.0"
           },
           {
             "name": "org.freemarker:freemarker",
