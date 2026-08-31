@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-22T07:10:28Z",
+  "generated": "2026-08-31T21:59:11Z",
   "image": "grimmory",
   "tags": {
     "latest": {
       "app_version": "3.3.3",
       "arch": "amd64",
-      "generated": "2026-08-22T07:08:38Z",
+      "generated": "2026-08-31T21:57:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -161,7 +161,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -302,7 +302,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -496,7 +496,7 @@
               "MIT"
             ],
             "name": "kepubify",
-            "version": "4.0.4_42"
+            "version": "4.0.4_43"
           },
           {
             "licenses": [
@@ -909,7 +909,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.14"
+            "version": "3.4.15"
           },
           {
             "licenses": [
@@ -1173,7 +1173,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.25.13"
+            "version": "v1.25.14"
           }
         ],
         "java": [
