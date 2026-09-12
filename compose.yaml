@@ -10,7 +10,6 @@ x-daemonless:
   user: "bsd"
   mlock: false
   upstream_binary: true
-  type: stack
   # MariaDB sidecar for the AppJail director bundle; host networking so the
   # app reaches it on 127.0.0.1, as under podman.
   appjail:
