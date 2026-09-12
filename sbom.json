@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-12T10:18:11Z",
+  "generated": "2026-09-12T18:16:14Z",
   "image": "grimmory",
   "tags": {
     "latest": {
       "app_version": "3.3.3",
       "arch": "amd64",
-      "generated": "2026-09-12T10:16:21Z",
+      "generated": "2026-09-12T18:14:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
