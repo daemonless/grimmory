@@ -9,12 +9,41 @@ x-daemonless:
   web_url: "https://grimmory.org/"
   user: "bsd"
   mlock: false
-#  appjail: false
   upstream_binary: true
+  type: stack
+  # MariaDB sidecar for the AppJail director bundle; host networking so the
+  # app reaches it on 127.0.0.1, as under podman.
+  appjail:
+    director:
+      options:
+        - alias:
+        - ip4_inherit:
+    depends_on:
+      - name: grimmory-mariadb
+        image: ghcr.io/daemonless/mariadb:latest
+        env:
+          PUID: "1000"
+          PGID: "1000"
+          TZ: "!ENV '${TZ}'"
+          MYSQL_ROOT_PASSWORD: "!ENV '${DB_ROOT_PASSWORD}'"
+          MYSQL_DATABASE: grimmory
+          MYSQL_USER: grimmory
+          MYSQL_PASSWORD: "!ENV '${DB_PASSWORD}'"
+        volumes:
+          db_data: /config
 
   docs:
     manual: true
     env:
+      DATA_LOCATION: "Path to store Grimmory configuration and application data"
+      BOOKS_LOCATION: "Path to your book library"
+      BOOKDROP_LOCATION: "Drop folder watched for automatic imports"
+      DB_DATA_LOCATION: "Path to store MariaDB data files"
+      DB_PASSWORD: "Database password (grimmory user)"
+      DB_ROOT_PASSWORD: "MariaDB root password"
+      TZ:
+        desc: "Timezone"
+        optional: true
       DATABASE_URL: "MariaDB JDBC URL (e.g., jdbc:mariadb://127.0.0.1:3306/grimmory)"
       DATABASE_USERNAME: "Database username"
       DATABASE_PASSWORD: "Database password"
@@ -36,16 +65,16 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Etc/UTC
+      - TZ=${TZ:-Etc/UTC}
       - DATABASE_URL=jdbc:mariadb://127.0.0.1:3306/grimmory
       - DATABASE_USERNAME=grimmory
-      - DATABASE_PASSWORD=changeme
+      - DATABASE_PASSWORD=${DB_PASSWORD}
       - SWAGGER_ENABLED=false
       - FORCE_DISABLE_OIDC=false
     volumes:
-      - grimmory-data:/app/data
-      - /path/to/books:/books
-      - grimmory-bookdrop:/bookdrop
+      - ${DATA_LOCATION}:/app/data
+      - ${BOOKS_LOCATION}:/books
+      - ${BOOKDROP_LOCATION}:/bookdrop
     depends_on:
       - mariadb
     restart: unless-stopped
@@ -57,16 +86,11 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Etc/UTC
-      - MYSQL_ROOT_PASSWORD=changeme
+      - TZ=${TZ:-Etc/UTC}
+      - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}
       - MYSQL_DATABASE=grimmory
       - MYSQL_USER=grimmory
-      - MYSQL_PASSWORD=changeme
+      - MYSQL_PASSWORD=${DB_PASSWORD}
     volumes:
-      - grimmory-mariadb:/config
+      - ${DB_DATA_LOCATION}:/config
     restart: unless-stopped
-
-volumes:
-  grimmory-data:
-  grimmory-bookdrop:
-  grimmory-mariadb:
