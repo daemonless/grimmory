@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-15T07:12:17Z",
+  "generated": "2026-09-16T07:00:51Z",
   "image": "grimmory",
   "tags": {
     "latest": {
-      "app_version": "3.4.0",
+      "app_version": "3.4.1",
       "arch": "amd64",
-      "generated": "2026-09-15T07:10:24Z",
+      "generated": "2026-09-16T06:58:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -302,7 +302,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
