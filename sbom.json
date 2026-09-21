@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-16T07:00:51Z",
+  "generated": "2026-09-21T07:16:27Z",
   "image": "grimmory",
   "tags": {
     "latest": {
-      "app_version": "3.4.1",
+      "app_version": "3.5.0",
       "arch": "amd64",
-      "generated": "2026-09-16T06:58:38Z",
+      "generated": "2026-09-21T07:14:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -63,6 +63,13 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-devmatch",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
             "version": "15.1"
           },
           {
@@ -182,6 +189,13 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-rc",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-resolvconf",
             "version": "15.1"
           },
           {
@@ -1043,7 +1057,7 @@
               "LGPL21"
             ],
             "name": "srt",
-            "version": "1.5.5"
+            "version": "1.5.6"
           },
           {
             "licenses": [
@@ -1225,7 +1239,7 @@
           {
             "name": "com.github.junrar:junrar",
             "purl": "",
-            "version": "8.1.0"
+            "version": "8.1.1"
           },
           {
             "name": "com.github.stephenc.jcip:jcip-annotations",
@@ -1530,7 +1544,7 @@
           {
             "name": "org.flywaydb:flyway-mysql",
             "purl": "",
-            "version": "13.5.0"
+            "version": "13.6.0"
           },
           {
             "name": "org.freemarker:freemarker",
@@ -1551,16 +1565,6 @@
             "name": "org.glassfish.jaxb:txw2",
             "purl": "",
             "version": "4.0.9"
-          },
-          {
-            "name": "org.grimmory:epub4j-core",
-            "purl": "",
-            "version": "1.5.0"
-          },
-          {
-            "name": "org.grimmory:epub4j-native",
-            "purl": "",
-            "version": "1.4.0"
           },
           {
             "name": "org.grimmory:pdfium4j",
@@ -1585,7 +1589,7 @@
           {
             "name": "org.hibernate:hibernate-core",
             "purl": "",
-            "version": "7.4.7.Final"
+            "version": "7.4.8.Final"
           },
           {
             "name": "org.jboss.logging:jboss-logging",
@@ -2009,9 +2013,9 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 155,
+        "freebsd": 157,
         "go": 11,
-        "java": 150,
+        "java": 148,
         "node": 11,
         "php": 0,
         "python": 3,
