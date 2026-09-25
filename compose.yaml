@@ -35,8 +35,8 @@ x-daemonless:
     manual: true
     env:
       DATA_LOCATION: "Path to store Grimmory configuration and application data"
-      BOOKS_LOCATION: "Path to your book library"
-      BOOKDROP_LOCATION: "Drop folder watched for automatic imports"
+      EBOOKS_PATH: "Path to your ebook library"
+      BOOKDROP_PATH: "Drop folder watched for automatic imports"
       DB_DATA_LOCATION: "Path to store MariaDB data files"
       DB_PASSWORD: "Database password (grimmory user)"
       DB_ROOT_PASSWORD: "MariaDB root password"
@@ -72,8 +72,8 @@ services:
       - FORCE_DISABLE_OIDC=false
     volumes:
       - ${DATA_LOCATION}:/app/data
-      - ${BOOKS_LOCATION}:/books
-      - ${BOOKDROP_LOCATION}:/bookdrop
+      - ${EBOOKS_PATH}:/books
+      - ${BOOKDROP_PATH}:/bookdrop
     depends_on:
       - mariadb
     restart: unless-stopped
