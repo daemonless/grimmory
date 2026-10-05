@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-21T07:16:27Z",
+  "generated": "2026-10-05T22:17:54Z",
   "image": "grimmory",
   "tags": {
     "latest": {
       "app_version": "3.5.0",
       "arch": "amd64",
-      "generated": "2026-09-21T07:14:43Z",
+      "generated": "2026-10-05T22:15:35Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -49,7 +49,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -1567,6 +1567,11 @@
             "version": "4.0.9"
           },
           {
+            "name": "org.grimmory:epub4j-core",
+            "purl": "",
+            "version": "2.1.0"
+          },
+          {
             "name": "org.grimmory:pdfium4j",
             "purl": "",
             "version": "1.2.0"
@@ -2015,13 +2020,13 @@
         "dotnet": 0,
         "freebsd": 157,
         "go": 11,
-        "java": 148,
+        "java": 149,
         "node": 11,
         "php": 0,
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 330
+        "total": 331
       }
     }
   }
