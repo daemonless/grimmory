@@ -355,22 +355,6 @@ services:
       - grimmory_data: /app/data
       - books: /books
       - grimmory_bookdrop: /bookdrop
-  mariadb:
-    name: mariadb
-    options:
-      - from: ghcr.io/daemonless/mariadb:latest
-      - template: !ENV '${PWD}/template.conf'
-    oci:
-      environment:
-        - PUID: "1000"
-        - PGID: "1000"
-        - TZ: !ENV '${TZ}'
-        - MYSQL_ROOT_PASSWORD: !ENV '${DB_ROOT_PASSWORD}'
-        - MYSQL_DATABASE: "grimmory"
-        - MYSQL_USER: "grimmory"
-        - MYSQL_PASSWORD: !ENV '${DB_PASSWORD}'
-    volumes:
-      - db_data: /config
 volumes:
   grimmory_data:
     device: '/containers/grimmory/data'
@@ -378,8 +362,6 @@ volumes:
     device: 'books'
   grimmory_bookdrop:
     device: '/containers/grimmory/bookdrop'
-  db_data:
-    device: !ENV '${DB_DATA_LOCATION}'
 ```
 
 **Makejail**:
