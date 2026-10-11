@@ -18,6 +18,36 @@ x-daemonless:
     "*": private
   hostnames:
     mariadb: MARIADB_HOSTNAME
+
+  # Grimmory needs MariaDB: the one it comes with, or one you already run.
+  choices:
+    database:
+      label: Database
+      doc: Where Grimmory keeps its library. The default runs its own MariaDB.
+      default: builtin
+      options:
+        builtin:
+          label: Built-in MariaDB
+          doc: A MariaDB of its own, on the stack's private network.
+        external:
+          label: Your own MariaDB
+          doc: A MariaDB you already run. Create the database and a user with all privileges on it first.
+          drop: [mariadb]
+          ask:
+            - name: MARIADB_HOSTNAME
+              label: Host
+            - name: MARIADB_PORT
+              label: Port
+              default: "3306"
+            - name: MARIADB_DATABASE
+              label: Database name
+              default: grimmory
+            - name: MARIADB_USER
+              label: User
+              default: grimmory
+            - name: DB_PASSWORD
+              label: Password
+              type: secret
   # MariaDB sidecar for the AppJail director bundle, named as the service is
   # so fjord finds its jail by the service's name.
   appjail:
@@ -40,18 +70,29 @@ x-daemonless:
           db_data: /config
 
   docs:
-    manual: true
     env:
       DATA_LOCATION: "Path to store Grimmory configuration and application data"
       EBOOKS_PATH: "Path to your ebook library"
       BOOKDROP_PATH: "Drop folder watched for automatic imports"
       DB_DATA_LOCATION: "Path to store MariaDB data files"
       MARIADB_HOSTNAME:
-        desc: "Where Grimmory finds MariaDB (fjord sets this; 127.0.0.1 on host networking)"
+        desc: "Where Grimmory finds MariaDB (fjord sets this for the built-in one; 127.0.0.1 on host networking)"
+        level: advanced
+        optional: true
+      MARIADB_PORT:
+        desc: "MariaDB port (your own MariaDB)"
+        level: advanced
+        optional: true
+      MARIADB_DATABASE:
+        desc: "Database name (your own MariaDB)"
+        level: advanced
+        optional: true
+      MARIADB_USER:
+        desc: "Database user (your own MariaDB)"
         level: advanced
         optional: true
       DB_PASSWORD: "Database password (grimmory user)"
-      DB_ROOT_PASSWORD: "MariaDB root password"
+      DB_ROOT_PASSWORD: "MariaDB root password (built-in MariaDB only)"
       TZ:
         desc: "Timezone"
         optional: true
@@ -68,6 +109,18 @@ x-daemonless:
     ports:
       6060: "Web interface"
 
+  readme:
+    introduction: |-
+      - **Smart Shelves** — Rule-based filtering, tagging, and full-text search
+      - **Built-in Reader** — In-browser reading for PDFs, EPUBs, and comics with annotations and progress tracking
+      - **Metadata Lookup** — Book info from Google Books, Open Library, and Amazon (fully editable)
+      - **Device Sync** — Kobo compatibility, OPDS support, and KOReader synchronization
+      - **BookDrop** — Drop files into a watched folder; Grimmory detects, enriches metadata, and queues for review
+      - **Multi-User** — Individual shelves and preferences with local or OIDC authentication
+      - **One-Click Sharing** — Send books to Kindle, email, or other users
+
+      **Supported formats:** EPUB, MOBI, AZW, AZW3, FB2, PDF, CBZ, CBR, CB7, M4B, M4A, MP3, OPUS
+
 services:
   grimmory:
     image: ghcr.io/daemonless/grimmory:latest
@@ -77,8 +130,8 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=${TZ:-Etc/UTC}
-      - DATABASE_URL=jdbc:mariadb://${MARIADB_HOSTNAME:-127.0.0.1}:3306/grimmory
-      - DATABASE_USERNAME=grimmory
+      - DATABASE_URL=jdbc:mariadb://${MARIADB_HOSTNAME:-127.0.0.1}:${MARIADB_PORT:-3306}/${MARIADB_DATABASE:-grimmory}
+      - DATABASE_USERNAME=${MARIADB_USER:-grimmory}
       - DATABASE_PASSWORD=${DB_PASSWORD}
       - SWAGGER_ENABLED=false
       - FORCE_DISABLE_OIDC=false
