@@ -10,15 +10,23 @@ x-daemonless:
   user: "bsd"
   mlock: false
   upstream_binary: true
-  # MariaDB sidecar for the AppJail director bundle; host networking so the
-  # app reaches it on 127.0.0.1, as under podman.
+  # grimmory is the one people open; mariadb stays on the stack's private
+  # network, where grimmory finds it by the name fjord puts in
+  # MARIADB_HOSTNAME (127.0.0.1 on host networking).
+  networking:
+    grimmory: default
+    "*": private
+  hostnames:
+    mariadb: MARIADB_HOSTNAME
+  # MariaDB sidecar for the AppJail director bundle, named as the service is
+  # so fjord finds its jail by the service's name.
   appjail:
     director:
       options:
         - alias:
         - ip4_inherit:
     depends_on:
-      - name: grimmory-mariadb
+      - name: mariadb
         image: ghcr.io/daemonless/mariadb:latest
         env:
           PUID: "1000"
@@ -38,6 +46,10 @@ x-daemonless:
       EBOOKS_PATH: "Path to your ebook library"
       BOOKDROP_PATH: "Drop folder watched for automatic imports"
       DB_DATA_LOCATION: "Path to store MariaDB data files"
+      MARIADB_HOSTNAME:
+        desc: "Where Grimmory finds MariaDB (fjord sets this; 127.0.0.1 on host networking)"
+        level: advanced
+        optional: true
       DB_PASSWORD: "Database password (grimmory user)"
       DB_ROOT_PASSWORD: "MariaDB root password"
       TZ:
@@ -65,7 +77,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=${TZ:-Etc/UTC}
-      - DATABASE_URL=jdbc:mariadb://127.0.0.1:3306/grimmory
+      - DATABASE_URL=jdbc:mariadb://${MARIADB_HOSTNAME:-127.0.0.1}:3306/grimmory
       - DATABASE_USERNAME=grimmory
       - DATABASE_PASSWORD=${DB_PASSWORD}
       - SWAGGER_ENABLED=false
