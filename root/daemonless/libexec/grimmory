@@ -3,7 +3,7 @@
 
 cd /app
 
-exec s6-setuidgid bsd \
+exec \
     /usr/local/bin/java \
     --enable-native-access=ALL-UNNAMED \
     --enable-preview \

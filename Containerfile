@@ -11,7 +11,7 @@ ARG BASE_VERSION=15.1
 FROM --platform=linux/amd64 ghcr.io/grimmory-tools/grimmory:${GRIMMORY_VERSION} AS upstream
 
 # --- Stage 2: Final FreeBSD Image ---
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="openjdk25-jre-headless kepubify ffmpeg"
@@ -52,13 +52,16 @@ RUN VERSION=$(fetch -qo - "${UPSTREAM_URL}" | sed -n 's/.*"tag_name"[^"]*"\([^"]
 
 # Copy service definitions
 COPY root/ /
+RUN chmod +x /daemonless/libexec/grimmory /daemonless/init.d/*
+
+CMD ["/daemonless/libexec/grimmory"]
 
 # Create directories
 RUN mkdir -p /app/data /books /bookdrop /app/logs && \
     chown -R bsd:bsd /app/data /books /bookdrop /app
 
 # Make scripts executable
-RUN chmod +x /etc/services.d/*/run /etc/cont-init.d/* /healthz 2>/dev/null || true
+RUN chmod +x /healthz
 
 ENV GRIMMORY_PORT=6060 \
     DATABASE_URL="" \

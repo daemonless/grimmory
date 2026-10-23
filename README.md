@@ -198,13 +198,8 @@ DATA_LOCATION=/containers/grimmory/data
 EBOOKS_PATH=/containers/grimmory/books
 BOOKDROP_PATH=/containers/grimmory/bookdrop
 DB_DATA_LOCATION=/containers/grimmory/mariadb
-MARIADB_HOSTNAME=
-MARIADB_PORT=
-MARIADB_DATABASE=
-MARIADB_USER=
 DB_PASSWORD=grimmory
 DB_ROOT_PASSWORD=grimmory-root
-JAVA_TOOL_OPTIONS=
 ```
 
 **appjail-director.yml**:
@@ -235,13 +230,8 @@ services:
         - EBOOKS_PATH: !ENV '${EBOOKS_PATH}'
         - BOOKDROP_PATH: !ENV '${BOOKDROP_PATH}'
         - DB_DATA_LOCATION: !ENV '${DB_DATA_LOCATION}'
-        - MARIADB_HOSTNAME: !ENV '${MARIADB_HOSTNAME}'
-        - MARIADB_PORT: !ENV '${MARIADB_PORT}'
-        - MARIADB_DATABASE: !ENV '${MARIADB_DATABASE}'
-        - MARIADB_USER: !ENV '${MARIADB_USER}'
         - DB_PASSWORD: !ENV '${DB_PASSWORD}'
         - DB_ROOT_PASSWORD: !ENV '${DB_ROOT_PASSWORD}'
-        - JAVA_TOOL_OPTIONS: !ENV '${JAVA_TOOL_OPTIONS}'
     volumes:
       - grimmory_data: /app/data
       - books: /books
@@ -307,13 +297,8 @@ DATA_LOCATION=/containers/grimmory/data
 EBOOKS_PATH=/containers/grimmory/books
 BOOKDROP_PATH=/containers/grimmory/bookdrop
 DB_DATA_LOCATION=/containers/grimmory/mariadb
-MARIADB_HOSTNAME=
-MARIADB_PORT=3306
-MARIADB_DATABASE=grimmory
-MARIADB_USER=grimmory
 DB_PASSWORD=
 DB_ROOT_PASSWORD=grimmory-root
-JAVA_TOOL_OPTIONS=
 ```
 
 **appjail-director.yml**:
@@ -344,13 +329,8 @@ services:
         - EBOOKS_PATH: !ENV '${EBOOKS_PATH}'
         - BOOKDROP_PATH: !ENV '${BOOKDROP_PATH}'
         - DB_DATA_LOCATION: !ENV '${DB_DATA_LOCATION}'
-        - MARIADB_HOSTNAME: !ENV '${MARIADB_HOSTNAME}'
-        - MARIADB_PORT: !ENV '${MARIADB_PORT}'
-        - MARIADB_DATABASE: !ENV '${MARIADB_DATABASE}'
-        - MARIADB_USER: !ENV '${MARIADB_USER}'
         - DB_PASSWORD: !ENV '${DB_PASSWORD}'
         - DB_ROOT_PASSWORD: !ENV '${DB_ROOT_PASSWORD}'
-        - JAVA_TOOL_OPTIONS: !ENV '${JAVA_TOOL_OPTIONS}'
     volumes:
       - grimmory_data: /app/data
       - books: /books
