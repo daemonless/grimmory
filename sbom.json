@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-11T18:28:45Z",
+  "generated": "2026-10-23T08:06:50Z",
   "image": "grimmory",
   "tags": {
     "latest": {
       "app_version": "3.5.0",
       "arch": "amd64",
-      "generated": "2026-10-11T18:26:38Z",
+      "generated": "2026-10-23T08:02:28Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -203,7 +203,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -252,7 +252,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -316,7 +316,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -332,13 +332,6 @@
             ],
             "name": "dav1d",
             "version": "1.5.4"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "execline",
-            "version": "2.9.8.1"
           },
           {
             "licenses": [
@@ -510,7 +503,7 @@
               "MIT"
             ],
             "name": "kepubify",
-            "version": "4.0.4_44"
+            "version": "4.0.4_45"
           },
           {
             "licenses": [
@@ -538,7 +531,7 @@
               "MIT"
             ],
             "name": "libX11",
-            "version": "1.8.13_1,1"
+            "version": "1.8.14,1"
           },
           {
             "licenses": [
@@ -587,7 +580,7 @@
               "MIT"
             ],
             "name": "libXrender",
-            "version": "0.9.12"
+            "version": "0.9.13"
           },
           {
             "licenses": [
@@ -987,7 +980,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -995,13 +988,6 @@
             ],
             "name": "readline",
             "version": "8.3.6"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "s6",
-            "version": "2.14.0.1"
           },
           {
             "licenses": [
@@ -1016,13 +1002,6 @@
             ],
             "name": "shared-mime-info",
             "version": "2.4_2"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "skalibs",
-            "version": "2.14.5.1"
           },
           {
             "licenses": [
@@ -1159,7 +1138,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.26.8"
+            "version": "v1.26.9"
           }
         ],
         "java": [
@@ -1990,7 +1969,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 153,
+        "freebsd": 150,
         "go": 11,
         "java": 149,
         "node": 11,
@@ -1998,7 +1977,7 @@
         "python": 3,
         "ruby": 0,
         "rust": 0,
-        "total": 327
+        "total": 324
       }
     }
   }
